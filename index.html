@@ -1,0 +1,1449 @@
+<head>
+  <title>Inicio meibis V2</title>
+</head>
+<link type="text/css" rel="stylesheet" href="https://codex.nflxext.com/%5E2.0.0/truthBundle/webui/0.0.1-shakti-css-vdf992f93/css/css/less%7Cpages%7Chome%7Cconcord.less/2/0C0Q040K090z0J0U0X0R0L0V0P0W0-/none/true/none"/>
+
+<style>
+  body {
+margin: 0;
+font-family: "Helvetica Neue", Helvetica, sans-serif;
+color: white;
+background: #17202A; /* white background */
+font-size: 16px;
+}
+
+* {
+box-sizing: border-box;
+}
+
+</style>
+
+<style>
+  #slider-box .woo{width:65.6%;}
+.slider{position:relative;overflow:auto;width:100%!important;direction:ltr!important}
+.slider ul#label_with_thumbs,.slider ul#label_with_thumbs li{margin:0!important;padding:0!important;border:0}
+.slider ul li{position:relative;padding:0}
+.slider .imageContainer{height:400px;width:100%}
+.slider .label_thumb{width:100%!important;height:400px}
+.toe{overflow:hidden;display:block;margin-bottom:5px}
+li.recent-box:last-child{border-bottom:0!important}
+.post-summary{line-height:18px}
+.ro{margin-bottom:15px;overflow:hidden}
+iframe#covervideo{width: 100%; height:400px;}
+</style>
+<body>
+
+<!-- estylo de net flix -->
+<link type="text/css" rel="stylesheet" href="css/net.css"/>
+<!-- estylo de net flix cierre-->
+<!-- estylo de buscador -->
+<style>
+
+input {
+border: none;
+outline: none;
+}
+input[type="text"] {
+padding: 15px 16px;
+border-bottom-left-radius: 10px;
+border-top-left-radius: 10px;
+color: #000;
+}
+input[type="text"]:focus {
+outline: none;
+}
+.button{
+padding: 15px 16px;
+border: none;
+margin-left: -4px;
+border-bottom-right-radius: 10px;
+border-top-right-radius: 10px;
+color: #fff;
+background-color: red;
+}
+</style>
+<!-- estylo de buscador cierre-->
+<!-- estylo de buscador cierre-->
+
+
+<!-- INICIO CSS IMAGEN DE INICIO GRANDE-->
+<style>
+    @import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,700,800");
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+html, body {
+  margin: 0;
+  
+  font-family: 'Montserrat', helvetica, arial, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+
+.movie_card .info_section {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-blend-mode: multiply;
+  z-index: 2;
+  border-radius: 10px;
+}
+.movie_card .info_section .movie_header {
+  position: relative;
+  padding: 25px;
+  height: 40%;
+}
+.movie_card .info_section .movie_header h1 {
+  color: #fff;
+  font-weight: 400;
+}
+.movie_card .info_section .movie_header h4 {
+  color: #9ac7fa;
+  font-weight: 400;
+}
+.movie_card .info_section .movie_header .minutes {
+  display: inline-block;
+  margin-top: 10px;
+  color: #fff;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid rgba(255, 255, 255, 0.13);
+}
+.movie_card .info_section .movie_header .type {
+  display: inline-block;
+  color: #cee4fd;
+  margin-left: 10px;
+}
+.movie_card .info_section .movie_header .locandina {
+  position: relative;
+  float: left;
+  margin-right: 20px;
+  height: 120px;
+  box-shadow: 0 0 20px -10px rgba(0, 0, 0, 0.5);
+}
+.movie_card .info_section .movie_desc {
+  padding: 25px;
+  height: 50%;
+}
+.movie_card .info_section .movie_desc .text {
+  color: #cfd6e1;
+}
+.movie_card .info_section .movie_social {
+  height: 10%;
+  padding-left: 15px;
+  padding-bottom: 20px;
+}
+.movie_card .info_section .movie_social ul {
+  list-style: none;
+  padding: 0;
+}
+.movie_card .info_section .movie_social ul li {
+  display: inline-block;
+  color: rgba(255, 255, 255, 0.4);
+  -webkit-transition: color 0.3s;
+  transition: color 0.3s;
+  -webkit-transition-delay: 0.15s;
+          transition-delay: 0.15s;
+  margin: 0 10px;
+}
+.movie_card .info_section .movie_social ul li:hover {
+  -webkit-transition: color 0.3s;
+  transition: color 0.3s;
+  color: rgba(255, 255, 255, 0.8);
+}
+.movie_card .info_section .movie_social ul li i {
+  font-size: 19px;
+  cursor: pointer;
+}
+.movie_card .blur_back {
+  position: absolute;
+  top: 0;
+  z-index: 1;
+  height: 100vh;
+  right: 0;
+  background-size: cover;
+  
+}
+
+@media screen and (min-width: 768px) {
+  .movie_header {
+    width: 60%;
+  }
+
+  .movie_desc {
+    width: 50%;
+  }
+
+  .info_section {
+    background: -webkit-gradient(linear, left top, right top, color-stop(50%, #0d0d0c), to(transparent));
+    background: linear-gradient(to right, #0d0d0c 50%, transparent 100%);
+  }
+
+  .blur_back {
+    width: 80%;
+    background-position: -100% 10% !important;
+  }
+}
+@media screen and (max-width: 768px) {
+  .movie_card {
+    width: 100%;
+    margin: 0px auto;
+    min-height: 350px;
+    height: auto;
+  }
+
+  .blur_back {
+    width: 100%;
+    background-position: 50% 50% !important;
+  }
+
+  .movie_header {
+    width: 100%;
+    margin-top: 50vh;
+  }
+
+  .movie_desc {
+    width: 100%;
+  }
+
+  .info_section {
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(10%, #17202A), to(transparent));
+    background: linear-gradient(to top, #17202A 10%, transparent 100%);
+    display: inline-grid;
+  }
+}
+
+
+
+
+
+.ave_back {
+  background: url("https://www.gannett-cdn.com/-mm-/c03fd140debe8ad4c05cf81a5cad7ad61a12ce52/c=0-1580-2985-3266&r=x803&c=1600x800/local/-/media/2017/06/09/USATODAY/USATODAY/636326272873599176-Black-Panther-Teaser.jpg");
+}
+</style>
+
+<!-- CSS LOADING INICIO-->
+<style>
+#load {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+
+#loadingscript {
+width: 50px;
+height: 50px;
+  background-image: url(https://assets.nflxext.com/en_us/pages/wiplayer/site-spinner.png);
+background-repeat: no-repeat;
+background-position-x: 50%;
+background-position-y: 50%;
+-moz-background-size: 100%;
+-o-background-size: 100%;
+background-size: 100%;
+animation: rotat 2s infinite;
+
+}
+
+@keyframes rotat {
+from {transform: rotate(0deg);}
+to {transform: rotate(360deg);}
+}
+
+</style>
+<style>
+#boxeo {
+
+width: 100vh;
+
+hidden; width: 100%;height:100vh;
+
+
+}
+
+</style>
+  <div id="load"><div id="loadingscript"></div></div>
+<!-- CSS LOADING FIN-->
+  
+<div id="boxeo">
+<!-- INICIO SCRIPT IMAGEN DE INICIO GRANDE-->
+
+<script>
+var showPostDate = true,
+    idMode = true,
+    sortByLabel = false,
+    labelSorter = "estreno",
+    totalPostLabel = "Anime :",
+    jumpPageLabel = "View",
+    rmoreText = "Selengkapnya &#9658;",
+    prevText = "Prev Page",
+    nextText = "Next Page",
+    siteUrl = "https://mavistools.blogspot.com/",
+    postPerPage = 1,
+    numChars = 999,
+    imgBlank = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAAA3NCSVQICAjb4U/gAAAADElEQVQImWOor68HAAL+AX7vOF2TAAAAAElFTkSuQmCC";
+
+var minpage = 6; // Minimum number to display the page
+var maxpage = 10; // The maximum number of pages to display
+var firstpage = 0; // Detect the first time it is executed
+var pagernum = 0; // Contain the page number where we
+var postsnum = 0; // Start the first page
+var actualpage = 1; // Starting value of the current page (it will change if you click the pagination).
+// This is the container template that will be used to insert the posts template, pagination and the posts count
+document.write('<div id="box"></div><div id="itempager" style="position:relative;"><div id="pagination"></div><div id="totalposts"></div></div>');
+var _results = document.getElementById('box');
+var _pagination = document.getElementById('pagination');
+var _totalposts = document.getElementById('totalposts');
+// Build the table of contents framework
+function showPagePosts(json) {
+    var entry, posttitle, posturl, postimg, postlabel, postsumm, monthnames, timepub, output = "";
+    if (pagernum === 0) {
+        postsnum = parseInt(json.feed.openSearch$totalResults.$t);
+        pagernum = parseInt(postsnum / postPerPage) + 1;
+    }
+    for (var i = 0; i < postPerPage; i++) {
+        if ("entry" in json.feed) {
+            if (i == json.feed.entry.length) break;
+            entry = json.feed.entry[i];
+            posttitle = entry.title.$t; // Get the post title
+            // Get rel="alternate" for truly post url
+            for (var k = 0, elen = entry.link.length; k < elen; k++) {
+                if (entry.link[k].rel == "alternate") {
+                    posturl = entry.link[k].href; // This is your real post URL!
+                    break;
+                }
+            }
+      postlabel = entry.category[0].term; // Get the post label only 1
+      var posttag=[];var posttagwrite="";
+   for(var k=0;k<entry.category.length;k++){
+    posttag.push(entry.category[k].term);
+   }
+   for(var t=0;t<posttag.length;t++){
+    posttagwrite+="<a class='genre' hrefx='"+ siteUrl +"/search/label/"+posttag[t]+"'>"+posttag[t]+"</a> ";
+   } // Get the post label array
+            // If the Blogger-feed is set to SHORT, then the content is in the summary-field
+            postsumm = ("summary" in entry) ? entry.summary.$t.replace(/<br ?\/?>/ig, " ").replace(/<.*?>/g, "").replace(/[<>]/g, "") : ""; // Get the post summary
+            // Reduce post summaries to "numChars" characters.
+            // "numChars" is a variable. You determine the value
+            if (postsumm.length > numChars) {
+                postsumm = (numChars > 0 && numChars !== false) ? postsumm.substring(0, numChars) + '...' : "";
+            }
+      
+            // Get the post date (e.g: 2012-02-07T12:56:00.000+07:00)
+            var _postdate = entry.published.$t,
+                _cdyear = _postdate.substring(0, 4), // Take 4 characters from the "postdate" beginning, it means the year (2012)
+                _cdmonth = _postdate.substring(5, 7), // Take 2 character 5 step from "postdate" beginning, it mean the month (02)
+                _cdday = _postdate.substring(8, 10); // Take 2 character 8 step from "postdate" beginning. it means the day (07)
+            // Month array template
+            monthnames = (idMode) ? ["Jan", "Feb", "Mar", "Apr", "Mei", "Jun", "Jul", "Agt", "Sep", "Okt", "Nov", "Des"] : ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+            // The final product of the post date = (07 Feb 2012) (cdday monthnames cdyear)
+            timepub = (showPostDate) ? _cdday + ' ' + monthnames[parseInt(_cdmonth, 10) - 1] + ' ' + _cdyear + '' : '';
+            // Get the post thumbnails
+            postimg = ("media$thumbnail" in entry) ? entry.media$thumbnail.url.replace(/\/s72\-c/, "/s500") : imgBlank;
+            // Build the post template
+            output += '';
+          output += '<div class="imageContainer"><div class="movie_card" id="bright"><div class="info_section"><div class="movie_header"><a style="text-decoration:none" href="' + posturl + '"><img class="locandina" src="'+postimg+'"/></a><h1>' + posttitle + '</h1><h4>' + timepub + '</h4><span class="minutes">117 min</span><p class="type">' + posttagwrite + '</p></div><div class="movie_desc"><p class="text">Esta es buena.</p></div><div class="movie_social"><ul></li><li></li></ul></div></div><div class="blur_back bright_back"></div></div><style>.bright_back {background: url('+postimg+');}</style>';
+            output += '';
+      output += '';
+            output += '';
+            output += '';
+        }
+    }
+    // Put the whole template above into <div id="results"></div>
+    _results.innerHTML = output;
+    _create_pagination();
+}
+// Build the pagination
+function _create_pagination() {
+    output = "";
+    var starter = 0;
+
+    if (pagernum < (maxpage + 1)) {
+        for (starter = 1; starter <= pagernum; starter++) {
+    
+        }
+    } else if (pagernum > (maxpage - 1)) {
+        if (actualpage < minpage) {
+            for (starter = 1; starter < (maxpage - 2); starter++) {
+
+            }
+            output += ' ... ';
+
+    
+    
+
+
+            output += ' ... ';
+            for (starter = actualpage - 2; starter <= actualpage + 2; starter++) {
+                output += (starter == actualpage) ? '' + starter + '' : '' + starter + '';
+            }
+            output += ' ... ';
+
+
+        } else {
+            output += '';
+
+            output += ' ... ';
+            for (starter = pagernum - (minpage + 1); starter <= pagernum; starter++) {
+
+            }
+        }
+    }
+    
+
+
+}
+// Functions to remove and append the callback script that has been manipulated in the `start-index` parameter
+function _init_script(n) {
+    var parameter = (n * postPerPage) - (postPerPage - 1),
+        old, s,
+        head = document.getElementsByTagName('head')[0],
+        url = (sortByLabel) ? siteUrl + '/feeds/posts/summary/-/' + labelSorter + '?start-index=' + parameter : siteUrl + '/feeds/posts/summary/-/' + labelSorter + '?start-index=' + parameter; // Optional: Sort posts by a specific label
+    if (firstpage == 1) {
+        // Jump to top
+        document.documentElement.scrollTop = _results.offsetTop - 30;
+        document.body.scrollTop = _results.offsetTop - 30;
+        // Remove the old callback script
+        old = document.getElementById("TEMPORAL");
+        old.parentNode.removeChild(old);
+    }
+    _results.innerHTML = '';
+    _pagination.innerHTML = '';
+    _totalposts.innerHTML = '';
+    s = document.createElement('script');
+    s.type = 'text/javascript';
+    s.src = url + '&max-results=' + postPerPage + '&orderby=updated&alt=json-in-script&callback=showPagePosts';
+    s.id = 'TEMPORAL';
+    head.appendChild(s);
+    firstpage = 1;
+    actualpage = n;
+}
+// Execute the _init_script() function with parameter as `1` on page load
+// So it will show the first page.
+window.onload = function () {
+    _init_script(1);
+};
+
+</script>
+  
+
+
+
+
+<!-- FIN SCRIPT IMAGEN DE INICIO GRANDE-->
+
+
+</div>
+
+
+
+
+
+
+<script src="https://mavistools.blogspot.com/feeds/posts/default/-/estreno?published&alt=json-in-script&callback=meibis" type="text/javascript"></script>
+
+<style>
+  -inner,.footer-outer,.post,.comments,.widget,.date-header,.inline-ad{position:relative;min-height:0;_position:static;_height:1%}.footer-outer{margin-bottom:-1px}.content-l a,.item-action a{text-decoration:none !important}.widget-item-control{float:right;height:20px;margin-top:-20px;position:relative;z-index:10}.widget-item-control a{opacity:.5}.widget-item-control a:hover{opacity:1}.widget .widget-item-control a img{border:none;padding:none;background:none;-moz-box-shadow:none;-webkit-box-shadow:none;-ie-box-shadow:none;box-shadow:none}.post-body{width:100%;_overflow:hidden}.post-header,.post-footer{line-height:1.6}.post-footer-line>*{margin-right:1em}.post-footer-line>*:last-child{margin-right:0}.post-timestamp{margin-left:-1em}.post-footer-line>*:first-child{margin-left:0}.post .tr-caption-container{position:relative}.inline-ad{margin:2em 0;text-align:center;line-height:0}#comments .comment-author{padding-left:25px}.comment-body{margin:.5em 25px}.comment-footer{margin:.5em 25px 1.5em}.comment-body p{margin:0}#comments .avatar-comment-indent .comment-author{margin-left:-45px;padding-left:45px}.deleted-comment{font-style:italic;opacity:.5}.Profile img{margin:0 .75em .5em 0}.Profile .profile-datablock{margin:0 0 .5em}
+</style>
+
+
+<!doctype html>
+
+
+
+
+<link rel="stylesheet" href="./style.css" />
+
+
+<!-- partial:index.partial.html -->
+
+
+
+
+
+
+
+
+
+
+<div id="features">
+
+  <section class="pet">
+
+
+      <style>
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
+
+
+a,
+a:visited {
+color: #555;
+outline: none;
+text-decoration: none;
+}
+
+a:hover,
+a:focus,
+a:visited:hover {
+
+text-decoration: none;
+}
+
+
+ -webkit-box-shadow: inset 0px 28px 26px 6px rgba(0,0,0,0.84);
+-moz-box-shadow: inset 0px 28px 26px 6px rgba(0,0,0,0.84);
+box-shadow: inset 0px 28px 26px 6px rgba(0,0,0,0.84);
+.anyar-container {
+
+width: 340px;
+margin: 0% auto;
+padding: 0px;
+
+}
+
+ul.rcentside * {
+-moz-box-sizing: border-box;
+-webkit-box-sizing: border-box;
+
+}
+
+ul.rcentside {
+font-size: 11px;
+}
+
+ul.rcentside,
+ul.rcentside li {
+margin: 0;
+padding: 0;
+list-style: none;
+position: relative
+}
+
+ul.rcentside {
+width: 100%;
+height: 500px
+}
+
+ul.rcentside li {
+height: 24.5%;
+position: absolute;
+padding: 0;
+width: 49.5%;
+float: left;
+overflow: hidden;
+display: none
+}
+
+ul.rcentside li:nth-child(1),
+ul.rcentside li:nth-child(2),
+ul.rcentside li:nth-child(3),
+ul.rcentside li:nth-child(4) {
+display: block
+}
+
+ul.rcentside img {
+border: 0;
+width: 100%;
+height: auto
+}
+
+ul.rcentside li:nth-child(1) {
+width: 100%;
+height: 49.5%;
+margin: 0 0 2px;
+left: 0;
+top: 0
+}
+
+ul.rcentside li:nth-child(2) {
+left: 0;
+top: 50%
+}
+
+ul.rcentside li:nth-child(3) {
+left: 50.5%;
+top: 50%
+}
+
+ul.rcentside li:nth-child(4) {
+width: 100%;
+left: 0;
+top: 75%
+}
+
+ul.rcentside .overlayx,
+ul.rcentside li {
+transition: all .4s ease-in-out
+}
+
+ul.rcentside .overlayx {
+width: 100%;
+height: 100%;
+position: absolute;
+z-index: 2;
+left: 0;
+top: 0;
+opacity: .0;
+
+background-image: url(https://1.bp.blogspot.com/-FtnGJHMcWH8/UIV3IE-aaJI/AAAAAAAAGHs/WvLypnWxg5A/s1600/linebg-fade.png);
+background-position: 50% 50%;
+background-repeat: repeat-x
+}
+
+ul.rcentside .overlayx,
+ul.rcentside img {
+margin: 0px;
+}
+
+ul.rcentside li:nth-child(1) .overlayx {
+background-position: 50% 25%;
+}
+
+ul.rcentside .overlayx:hover {
+opacity: .1
+}
+
+ul.rcentside h4 {
+position: absolute;
+bottom: 0px;
+left: 0px;
+right: 0px;
+z-index: 2;
+color: #fff;
+font-weight: 700;
+margin: 0;
+padding: 35px;
+line-height: 1.5em;
+font-weight: normal;
+overflow: hidden;
+transition: all .3s;-webkit-box-shadow: inset 1px -75px 38px -41px rgba(0,0,0,0.99);
+-moz-box-shadow: inset 1px -75px 38px -41px rgba(0,0,0,0.99);
+box-shadow: inset 1px -75px 38px -41px rgba(0,0,0,0.99);
+
+
+}
+
+ul.rcentside li:hover h4 {
+bottom: 30px;
+}
+
+ul.rcentside li:nth-child(1) h4,
+ul.rcentside li:nth-child(4) h4 {
+font-size: 150%
+}
+
+ul.rcentside .label_text {
+position: absolute;
+bottom: 0;
+left: 20px;
+z-index: 2;
+color: red;
+font-size: 90%;
+opacity: 0;
+transition: all .3s;
+}
+
+ul.rcentside li:hover .label_text {
+bottom: 20px;
+opacity: 1;
+}
+
+ul.rcentside li:nth-child(2) .autname,
+ul.rcentside li:nth-child(3) .autname {
+display: none
+}
+
+.buttons {
+margin: 5px 0 0
+}
+
+.buttons a {
+display: inline-block;
+text-indent: -9999px;
+width: 15px;
+height: 10px;
+position: relative
+}
+
+.buttons a::before {
+content: "";
+width: 0;
+height: 0;
+border-width: 8px 7px;
+border-style: solid;
+border-color: transparent #535353 transparent transparent;
+position: absolute;
+top: 50%;
+margin-top: -8px;
+margin-left: -10px;
+left: 50%
+}
+
+.buttons a.nextx::before {
+border-color: transparent transparent transparent red;
+margin-left: -5px
+}
+</style>
+      <div class='clear'/>
+      <nav id='nav' itemscope='itemscope' itemtype='http://schema.org/SiteNavigationElement' role='navigation'>
+          <div id='menubar'>
+
+
+              <center>
+                  <form action="https://mavistools.blogspot.com/search" class="searchform" method="get" name="searchform">
+                      <input type="hidden" value="">
+                      <input id='search-box' name='q' onblur='if(this.value==&apos;&apos;)this.value=this.defaultValue;' onfocus='if(this.value==this.defaultValue)this.value=&apos;&apos;;' type='text' value='Buscar Pelicula...'/>
+                      <button class="button" type="submit">Search</button>
+                  </form>
+              </center>
+              <center><b id="pdfamily5"></b></center>
+              <center>
+                  <form action="https://series-mavis.blogspot.com/search" class="searchform" method="get" name="searchform">
+                      <input type="hidden" value="">
+                      <input id='search-box' name='q' onblur='if(this.value==&apos;&apos;)this.value=this.defaultValue;' onfocus='if(this.value==this.defaultValue)this.value=&apos;&apos;;' type='text' value='Buscar Serie...'/>
+                      <button class="button" type="submit">Search</button>
+                  </form>
+              </center>
+          </div>
+      </nav>
+      <div class='clear'/></div></div>
+
+
+<link rel="stylesheet" href="./style.css" />
+
+
+<!-- partial:index.partial.html -->
+<div class="anyar-container"><div id="recentpostside"></div></div>
+<!-- partial -->
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+<script  src="./script.js"></script>
+
+
+
+<script>
+function RecentPostSide(a){(function(e){var h={blogURL:"",MaxPost:4,idcontaint:"",ImageSize:100,interval:5000,autoplay:false,loadingClass:"loadingxx",pBlank:"https://4.bp.blogspot.com/-6Sc5vmDvBj4/XX1BkzJeFtI/AAAAAAAAH90/E5mfJ4ld8LQfwF65D5k3DmpiMvvUo9iNgCLcBGAsYHQ/s1600/440039_splash.png",MonthNames:["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],tagName:false};h=e.extend({},h,a);var g=e(h.idcontaint);var d=h.MaxPost*200;g.html('<div class="sliderx"><ul class="rcentside"></ul></div><div class="buttons"><a href="#" class="prevx">prev</a><a href="#" class="nextx">next</a></div>');var f=function(w){var q,k,m,u,x,p,t,v,r,l="",s=w.feed.entry;for(var o=0;o<s.length;o++){for(var n=0;n<s[o].link.length;n++){if(s[o].link[n].rel=="alternate"){q=s[o].link[n].href;break}}if("media$thumbnail" in s[o]){u=s[o].media$thumbnail.url.replace(/\/s[0-9]+\-c/g,"/s"+h.ImageSize+"-c")}else{u=h.pBlank.replace(/\/s[0-9]+(\-c|\/)/,"/s"+h.ImageSize+"$1")}k=s[o].title.$t;r=s[o].published.$t.substring(0,10);m=s[o].author[0].name.$t;x=r.substring(0,4);p=r.substring(5,7);t=r.substring(8,10);v=h.MonthNames[parseInt(p,10)-1];l+='<li><a target="_self" href="'+q+'?native"><div class="overlayx"></div><img class="random" src="'+u+'"/><h4>'+k+'</h4></a><div class="label_text"><span class="date"><span class="dd">'+t+'</span> <span class="dm">'+v+'</span> <span class="dy">'+x+'</span></span> <span class="autname">'+m+"</span></div></li>"}e("ul",g).append(l).addClass(h.loadingClass)};var c=function(){e(h.idcontaint+" .nextx").click()};var b=function(){e.get((h.blogURL===""?window.location.protocol+"//"+window.location.host:h.blogURL)+"/feeds/posts/summary"+(h.tagName===false?"":"/-/"+h.tagName)+"?max-results="+h.MaxPost+"&orderby=published&alt=json-in-script",f,"jsonp");setTimeout(function(){e(h.idcontaint+" .prevx").click(function(){e(h.idcontaint+" .sliderx li:first").before(e(h.idcontaint+" .sliderx li:last"));return false});e(h.idcontaint+" .nextx").click(function(){e(h.idcontaint+" .sliderx li:last").after(e(h.idcontaint+" .sliderx li:first"));return false});if(h.autoplay){var i=h.interval;var j=setInterval(c,i);e(h.idcontaint+" .sliderx li:first").before(e(h.idcontaint+" .sliderx li:last"));e(h.idcontaint+" .sliderx").hover(function(){clearInterval(j)},function(){j=setInterval(c,i)})}e("ul",g).removeClass(h.loadingClass)},d)};e(document).ready(b)})(jQuery)};
+//<![CDATA[
+RecentPostSide({
+blogURL: "https://mavistools.blogspot.com/",
+MaxPost: 4,
+idcontaint: "#recentpostside",
+ImageSize: 300,
+interval: 5000,
+autoplay: false,
+tagName: false
+});
+//]]>
+</script>
+
+</section>
+
+
+
+
+
+
+<link href="//fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet" type="text/css" />
+<link href='https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css' rel='stylesheet' type='text/css'/>
+
+
+<style id='page-skin-1' type='text/css'>
+
+
+.section,.widget{margin:-0;padding:0}
+
+
+
+
+.FollowByEmail .follow-by-email-inner .follow-by-email-submit{font-family:'Roboto', sans-serif;height:50px!important;width:100%;margin-left:0;background:#dd3333;font-size:16px;font-weight:800;text-transform:uppercase;padding:10px;border-radius:0!important;}
+#footer2{max-width:600px;margin:auto;}
+.followbytext{font-size:15px;color:white;text-align:center;font-weight:700}
+.follow-by-email-inner form {margin:0}
+.Label li:hover:before {margin:0 0 0 5px;padding-right:4px;color:#dd3333;}
+.status-msg-wrap {background:#dd3333;color:#000;}
+.status-msg-wrap a {color:#000}
+.status-msg-border {border:none;}
+#ArchiveList a.post-count-link, #ArchiveList a.post-count-link:link, #ArchiveList a.post-count-link:visited {text-decoration:none;font-size:13px;font-weight:700;}
+span.post-count {font-size:11px;font-weight:700;}
+.BlogArchive #ArchiveList ul.posts li {font-size:12px;}
+#ArchiveList {padding: 10px;}
+#ArchiveList select {width: 100%;padding: 15px;margin-bottom: 5px;border: 1px solid rgba(201, 201, 201, 0.52);font-size:13px;}
+.box-title, #nav, .menu-nav li ul  {
+    
+/*===color fondo caja de buscar =  background: #000; =*/
+    
+  }
+#related-post h5 span, #comments h4, .sidebar h3, .sidebar h2, .most-viewed2 .widget h2 { display: inline-block; font-family: 'Roboto'; font-size: 14px; padding-bottom: 7px; border-bottom: 4px solid #dd3333; line-height: 18px; font-weight: 700; color: #111; text-transform: uppercase;}
+.box-title10 {display: table; padding: 15px 40px; overflow: hidden; border: 2px solid #dd3333; border-radius: 100px; transition: 0.9s; text-align: center; margin: 0 auto; position: relative;}
+.box-title10:hover {background:#dd3333;border: 2px solid #dd3333; border-radius: 100px;transition: 0.9s;}
+.box-title10 h2 {font-size:14px;}
+.box-title10 h2 a {color:#dd3333;transition: 0.9s;}
+.box-title10:hover a {color:#000;}
+
+.share-box{background:#dd3333;color:#000;padding: 8px; float: left; margin-right: 5px; font-weight: 600; font-size: 14px;}
+#recent1 .title {display: inline-block; font-family: 'Roboto'; font-size: 14px; padding-bottom:7px; border-bottom: 4px solid #FF0000; line-height: 18px; font-weight: 700; color: #111; text-transform: uppercase;margin-bottom: 15px;}
+#recent1 .title p {display: initial; font-size: 12px; margin: 0;}
+#recent1 .title a{color: #444;border-right: 1px solid #dd3333; padding-right: 10px;}
+#recent1 { width: 100%;overflow: hidden;}
+font-size: 14px; font-weight: 600; margin: 0 12px 8px 0; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; text-overflow: ellipsis; color: #444; font-family: roboto; height: 20px;
+.ftimg {height: auto; width: 90px; display: block; overflow: hidden; position: absolute; margin:0 0 0 253px;}
+  
+  /*========================== APEGAR TITULOS A LA IMAGEN ==========================*/
+#recent1 .recent-box .imageContainer {width:100%;overflow: hidden;margin-right: 20px;margin-bottom: 2px;overflow:hidden;background: #2f3238;}
+  /*========================== APEGAR TITULOS A LA IMAGEN ==========================*/
+  
+#recent1 .recent-box .imageContainer { margin-left: 0; }
+.imageContainer {float: none;width: 100%;margin-bottom: 5px;transition: 0.9s; -webkit-transition: opacity 0.35s, -webkit-transform 0.35s; transition: opacity 0.35s, transform 0.35s;}
+img.label_thumb:hover{ opacity: 0.4; -webkit-transform: scale3d(1.1,1.1,1); transform: scale3d(1.1,1.1,1); }
+.inline-ad {margin:0!important;}
+#recent1 .widget-content {padding:0}
+.label_thumb {margin-left:0;transform: scale(1.0); transition: 0.9s;}
+.label_title {display: block;font-size: 14px;font-weight:700;line-height: 23px;color: #fff;text-overflow: ellipsis; white-space: nowrap; overflow: hidden;}
+.label_title:hover {color:}
+.post-date {font-size: 11px; color: #555; margin-right: 8px; font-weight: 500;}
+.post-date:before {content: "\f017";font-family: FontAwesome;display: inline-block;margin-right: 3px;}
+.recent-com {font-size: 11px; color: #555; margin-right: 8px; font-weight: 500;}
+.recent-com:before {content:"\f0e6";font-family: FontAwesome;display: inline-block;margin-right: 3px;}
+.post-summary {padding-top:0;text-align:justify}
+img.label_thumb {transition: 0.9s;-webkit-transition: opacity 1s, -webkit-transform 1s; transition: opacity 1s, transform 1s; -webkit-backface-visibility: hidden; backface-visibility: hidden;overflow: hidden; width: 100%;height:150px;}
+img.recent_thumb {width:280px;height:200px;float:left;margin-bottom:5px;transition: 0.9s;    margin-right: 10px;}
+ul.recent_posts_with_thumbs {padding:0}
+.recent_posts_with_thumbs {float: left;width: 100%;min-height: 100%;margin: 5px 0px 5px 0px;padding: 0;font-size:12px;}
+ul.recent_posts_with_thumbs li {padding-bottom:5px;padding-top:5px;min-height:80px;border-bottom: 1px solid rgba(192, 192, 192, 0.38); margin-bottom: 10px;}
+ul.recent_posts_with_thumbs li:last-child {border-bottom:none;}
+ul.recent_posts_with_thumbs li p {margin: 0.3em 0; font-size: 11px;}
+.recent_posts_with_thumbs a {text-decoration:none;font-size: 13px; font-weight:700; color: #333;}
+.recent_posts_with_thumbs strong {font-size:10px;}
+.recent-com {}
+
+/*=============== tamaño de poster ======= height oculta titulos ===================*/
+
+#label_with_thumbs li{
+    
+/*===color fondo de titulos de peliculas= background: #000; =*/
+    
+     margin: 1px; width: 110px; height: 170px; float: left; overflow: hidden;
+
+/*======borde redondeado imagen pequeña======*/
+    
+  border-radius: 8px 8px 8px 8px;
+-moz-border-radius: 8px 8px 8px 8px;
+-webkit-border-radius: 8px 8px 8px 8px;
+border: 0px solid ;
+  }
+
+/*========================== CSS Responsive Design ==========================*/
+
+
+#recent1 .widget {overflow: hidden; overflow-x: scroll; overflow-y: hidden; width: 100%; margin-bottom: 10px;}
+
+
+
+
+/*========================== CSS Responsive ==========================*/
+@media only screen and (max-width:100px){
+
+.relhead { font-size: 100%; font-weight: normal; line-height: 150%; overflow: hidden; overflow-x: scroll; overflow-y: hidden; width: 100%; margin-bottom: 10px; }}
+#label_with_thumbs { margin: 0; padding: 0; position: relative; width: 1456px; }
+
+
+
+
+</style>
+<style type='text/css'>
+
+
+</style>
+<script src='//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js'></script>
+<script type='text/javascript'>
+snippet_count = 140;
+//<![CDATA[
+function removeHtmlTag(n,e){if(-1!=n.indexOf("<")){for(var t=n.split("<"),i=0;i<t.length;i++)-1!=t[i].indexOf(">")&&(t[i]=t[i].substring(t[i].indexOf(">")+1,t[i].length));n=t.join("")}for(e=e<n.length-1?e:n.length-2;" "!=n.charAt(e-1)&&-1!=n.indexOf(" ",e);)e++;return n=n.substring(0,e-1),n+"..."}function createSnippet(n){var e=document.getElementById(n),t=snippet_count,i='<div class="snippets">'+removeHtmlTag(e.innerHTML,t)+"</div>";e.innerHTML=i}
+//thumbnail
+function postthumbnail(e,t){var n=230;var r=290;image_tag='<img width="'+n+'" height="'+r+'" src="'+e.replace("/s72-c/","/w"+n+"-h"+r+"-c/")+'" alt="'+t.replace(/"/g,"")+'" title="'+t.replace(/"/g,"")+'"/>';if(t!="")return image_tag;else return""};
+
+//]]>
+</script>
+<script type='text/javascript'>
+//<![CDATA[
+
+// recent posts by label Script==========================
+function labelthumbs(e){document.write('<ul id="label_with_thumbs">');for(var t=0;t<numpostspeque;t++){var n=e.feed.entry[t];var r=n.title.$t;var i;if(t==e.feed.entry.length)break;for(var o=0;o<n.link.length;o++){if(n.link[o].rel=="replies"&&n.link[o].type=="text/html"){var u=n.link[o].title;var f=n.link[o].href}if(n.link[o].rel=="alternate"){i=n.link[o].href;break}}var l;try{l=n.media$thumbnail.url}catch(h){s=n.content.$t;a=s.indexOf("<img");b=s.indexOf('src="https://4.bp.blogspot.com/-6Sc5vmDvBj4/XX1BkzJeFtI/AAAAAAAAH90/E5mfJ4ld8LQfwF65D5k3DmpiMvvUo9iNgCLcBGAsYHQ/s1600/440039_splash.png',a);c=s.indexOf('"',b+5);d=s.substr(b+5,c-b-5);if(a!=-1&&b!=-1&&c!=-1&&d!=""){l=d}else l="https://4.bp.blogspot.com/-6Sc5vmDvBj4/XX1BkzJeFtI/AAAAAAAAH90/E5mfJ4ld8LQfwF65D5k3DmpiMvvUo9iNgCLcBGAsYHQ/s1600/440039_splash.png"}var p=n.published.$t;var v=p.substring(0,4);var m=p.substring(5,7);var g=p.substring(8,10);var y=new Array;y[1]="Jan";y[2]="Feb";y[3]="Mar";y[4]="Apr";y[5]="May";y[6]="June";y[7]="July";y[8]="Aug";y[9]="Sept";y[10]="Oct";y[11]="Nov";y[12]="Dec";document.write('<li class="recent-box">');if(showpostthumbnails==true)document.write('<div class="imageContainer"><a href="'+i+'?native" target ="_self"><img class="label_thumb" src="'+l+'" title="'+r+'" alt="'+r+'"/></a></div>');document.write('<a class="label_title" href="'+i+'" target ="_top">'+r+"</a>");var w="";var E=0;document.write("");p=n.published.$t;var S=[1,2,3,4,5,6,7,8,9,10,11,12];var x=["Jan","Feb","Mar","Apr","May","June","July","Aug","Sept","Oct","Nov","Dec"];var T=p.split("-")[2].substring(0,2);var N=p.split("-")[1];var C=p.split("-")[0];for(var k=0;k<S.length;k++){if(parseInt(N)==S[k]){N=x[k];break}}var L=T+" "+N+" "+C;if(showpostdate==true){document.write('<div class="toe"><a href="'+i+'" class="post-date">'+L+"</a>")}if(showcommentnum==true){if(E==1){w=w+" | "}if(u=="1 Comments")u="1 Comment";if(u=="0 Comments")u="No Comments";w=w+u;E=1;document.write('<a class="recent-com" href="'+f+'" target ="_top">'+u+"</a></div>");}if("content"in n){var A=n.content.$t}else if("summary"in n){var A=n.summary.$t}else var A="";var O=/<\S[^>]*>/g;A=A.replace(O,"");if(showpostsummary==true){if(A.length<numchars){document.write("");document.write(A);document.write("")}else{document.write("");A=A.substring(0,numchars);var M=A.lastIndexOf(" ");A=A.substring(0,M);document.write('<p class="post-summary">'+A+"...</p>")}}document.write("</li>");if(t!=numpostspeque-1)document.write("")}document.write("</ul>")};$(document).ready(function() {$('.label_thumb').attr('src', function(i, src) {return src.replace( 's72-c', 's320' );});});$(document).ready(function() {$('.label_thumb').attr('src', function(i, src) {return src.replace( 'default.jpg', 'sddefault.jpg' );});});
+
+// Breaking News==========================
+$(document).ready(function(){var e="",t=20;$.ajax({url:""+e+"/feeds/posts/default?alt=json-in-script&max-results="+t,type:"get",dataType:"jsonp",success:function(e){function t(){$("#adbreakingnews li:first").slideUp(function(){$(this).appendTo($("#adbreakingnews ul")).slideDown()})}var n,r,s="",a=e.feed.entry;if(void 0!==a){s="<ul>";for(var l=0;l<a.length;l++){for(var o=0;o<a[l].link.length;o++)if("alternate"==a[l].link[o].rel){n=a[l].link[o].href;break}r=a[l].title.$t,s+='<li><a href="'+n+'" target="_self">'+r+"</a></li>"}s+="</ul>",$("#adbreakingnews").html(s),setInterval(function(){t()},5e3)}else $("#adbreakingnews").html("<span>No result!</span>")},error:function(){$("#adbreakingnews").html("<strong>Error Loading Feed!</strong>")}})});
+//]]>
+</script>
+<script type='text/javascript'>
+var numpostspeque =13;
+var showpostthumbnails = true;
+var showcommentnum = false;
+var showpostdate = false;
+var showpostsummary = false;
+var numchars = 1800;
+</script>
+<link href='https://www.blogger.com/dyn-css/authorization.css?targetBlogID=5619662623876327025&zx=d236184d-fcfa-41e6-bae2-48b95e8f2488' media='none' onload='if(media!='all')media='all'' rel='stylesheet'/><noscript><link href='https://www.blogger.com/dyn-css/authorization.css?targetBlogID=5619662623876327025&zx=d236184d-fcfa-41e6-bae2-48b95e8f2488' rel='stylesheet'/></noscript>
+
+<!-- CDATA CARRUCEL GRANDE -->
+<style id='page-skin-1' type='text/css'>
+
+
+.section,.widget{margin:-0;padding:0}
+
+
+
+
+
+
+.viewall { font: normal normal 11px / normal Arial, Sans-Serif;
+color: red;
+float: right;
+    
+/*======Colo de fondo ver mas=== background-color: #000; ===*/
+
+line-height: normal;
+margin-top: -1px;
+margin-right: 0%;
+padding: 7px 1px;
+font-weight: 400;
+border-radius: 3px;
+font-size: 16px;
+text-decoration: none;}
+.viewall a {font-family: Roboto; border: 1px solid #FF0000; color: #FF0000; padding: 6px 15px; display: -webkit-box;}
+.viewall a:hover {background: #FF0000;border:1px solid;color:#000;}
+
+
+
+
+.label_title {display: block;font-size: 14px;font-weight:700;line-height: 23px;color: #fff;text-overflow: ellipsis; white-space: nowrap; overflow: hidden;}
+
+
+  
+
+
+img.label_circulo {transition: 0.9s;-webkit-transition: opacity 1s, -webkit-transform 1s; transition: opacity 1s, transform 1s; -webkit-backface-visibility: hidden; backface-visibility: hidden;overflow: hidden; width: 140px;height:310px;}
+img.recent_circulo {width:280px;height:200px;float:left;margin-bottom:5px;transition: 0.9s;    margin-right: 10px;}
+ul.recent_posts_with_circulo {padding:0}
+.recent_posts_with_circulo {float: left;width: 100%;min-height: 100%;margin: 5px 0px 5px 0px;padding: 0;font-size:12px;}
+ul.recent_posts_with_circulo li {padding-bottom:5px;padding-top:5px;min-height:100px;border-bottom: 1px solid rgba(192, 192, 192, 0.38); margin-bottom: 10px;}
+ul.recent_posts_with_circulo li:last-child {border-bottom:none;}
+ul.recent_posts_with_circulo li p {margin: 0.3em 0; font-size: 11px;}
+.recent_posts_with_circulo a {text-decoration:none;font-size: 13px; font-weight:700; color: #333;}
+.recent_posts_with_circulo strong {font-size:10px;}
+.recent-com {}
+
+/*=============== tamaño de poster ======= height oculta titulos ===================*/
+
+#label_with_circulo li{
+    /*===color fondo de titulos de peliculas= background: #fff; =*/
+     margin: 1px; width: 140px; height: 330px; float: left; overflow: hidden;
+  
+ /*======borde redondeado imagen grande======*/
+    
+  border-radius: 8px 8px 8px 8px;
+-moz-border-radius: 8px 8px 8px 8px;
+-webkit-border-radius: 8px 8px 8px 8px;
+border: 0px solid ;
+  }
+
+/*========================== CSS Responsive Design ==========================*/
+@media screen and (max-width:1066px) {
+
+#recent1 .widget {overflow: hidden; overflow-x: scroll; overflow-y: hidden; width: 100%; margin-bottom: 10px;}
+
+
+
+
+/*========================== CSS Responsive ==========================*/
+
+.relhead { font-size: 100%; font-weight: normal; line-height: 150%; overflow: hidden; overflow-x: scroll; overflow-y: hidden; width: 100%; margin-bottom: 10px; }}
+#label_with_circulo { margin: 0; padding: 0; position: relative;
+    
+ /*====== largo del scroll == para 13 1846px ====*/
+    width: 2840px; }
+
+
+
+
+</style>
+<style type='text/css'>
+
+
+</style>
+<script src='//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js'></script>
+<script type='text/javascript'>
+snippet_count = 140;
+//<![CDATA[
+function removeHtmlTag(n,e){if(-1!=n.indexOf("<")){for(var t=n.split("<"),i=0;i<t.length;i++)-1!=t[i].indexOf(">")&&(t[i]=t[i].substring(t[i].indexOf(">")+1,t[i].length));n=t.join("")}for(e=e<n.length-1?e:n.length-2;" "!=n.charAt(e-1)&&-1!=n.indexOf(" ",e);)e++;return n=n.substring(0,e-1),n+"..."}function createSnippet(n){var e=document.getElementById(n),t=snippet_count,i='<div class="snippets">'+removeHtmlTag(e.innerHTML,t)+"</div>";e.innerHTML=i}
+//thumbnail
+function postthumbnail(e,t){var n=230;var r=290;image_tag='<img width="'+n+'" height="'+r+'" src="'+e.replace("/s72-c/","/w"+n+"-h"+r+"-c/")+'" alt="'+t.replace(/"/g,"")+'" title="'+t.replace(/"/g,"")+'"/>';if(t!="")return image_tag;else return""};
+
+//]]>
+</script>
+<script type='text/javascript'>
+//<![CDATA[
+
+// recent posts by label Script==========================
+function circulo(e){document.write('<ul id="label_with_circulo">');for(var t=0;t<numpostsgrande;t++){var n=e.feed.entry[t];var r=n.title.$t;var i;if(t==e.feed.entry.length)break;for(var o=0;o<n.link.length;o++){if(n.link[o].rel=="replies"&&n.link[o].type=="text/html"){var u=n.link[o].title;var f=n.link[o].href}if(n.link[o].rel=="alternate"){i=n.link[o].href;break}}var l;try{l=n.media$thumbnail.url}catch(h){s=n.content.$t;a=s.indexOf("<img");b=s.indexOf('src="https://4.bp.blogspot.com/-6Sc5vmDvBj4/XX1BkzJeFtI/AAAAAAAAH90/E5mfJ4ld8LQfwF65D5k3DmpiMvvUo9iNgCLcBGAsYHQ/s1600/440039_splash.png',a);c=s.indexOf('"',b+5);d=s.substr(b+5,c-b-5);if(a!=-1&&b!=-1&&c!=-1&&d!=""){l=d}else l="https://4.bp.blogspot.com/-6Sc5vmDvBj4/XX1BkzJeFtI/AAAAAAAAH90/E5mfJ4ld8LQfwF65D5k3DmpiMvvUo9iNgCLcBGAsYHQ/s1600/440039_splash.png"}var p=n.published.$t;var v=p.substring(0,4);var m=p.substring(5,7);var g=p.substring(8,10);var y=new Array;y[1]="Jan";y[2]="Feb";y[3]="Mar";y[4]="Apr";y[5]="May";y[6]="June";y[7]="July";y[8]="Aug";y[9]="Sept";y[10]="Oct";y[11]="Nov";y[12]="Dec";document.write('<li class="recent-box">');if(showpostthumbnails==true)document.write('<div class="imageContainer"><a href="'+i+'?native" target ="_self"><img class="label_circulo" src="'+l+'" title="'+r+'" alt="'+r+'"/></a></div>');document.write('<a class="label_title" href="'+i+'" target ="_top">'+r+"</a>");var w="";var E=0;document.write("");p=n.published.$t;var S=[1,2,3,4,5,6,7,8,9,10,11,12];var x=["Jan","Feb","Mar","Apr","May","June","July","Aug","Sept","Oct","Nov","Dec"];var T=p.split("-")[2].substring(0,2);var N=p.split("-")[1];var C=p.split("-")[0];for(var k=0;k<S.length;k++){if(parseInt(N)==S[k]){N=x[k];break}}var L=T+" "+N+" "+C;if(showpostdate==true){document.write('<div class="toe"><a href="'+i+'" class="post-date">'+L+"</a>")}if(showcommentnum==true){if(E==1){w=w+" | "}if(u=="1 Comments")u="1 Comment";if(u=="0 Comments")u="No Comments";w=w+u;E=1;document.write('<a class="recent-com" href="'+f+'" target ="_top">'+u+"</a></div>");}if("content"in n){var A=n.content.$t}else if("summary"in n){var A=n.summary.$t}else var A="";var O=/<\S[^>]*>/g;A=A.replace(O,"");if(showpostsummary==true){if(A.length<numchars){document.write("");document.write(A);document.write("")}else{document.write("");A=A.substring(0,numchars);var M=A.lastIndexOf(" ");A=A.substring(0,M);document.write('<p class="post-summary">'+A+"...</p>")}}document.write("</li>");if(t!=numpostsgrande-1)document.write("")}document.write("</ul>")};$(document).ready(function() {$('.label_circulo').attr('src', function(i, src) {return src.replace( 's72-c', 's320' );});});$(document).ready(function() {$('.label_circulo').attr('src', function(i, src) {return src.replace( 'default.jpg', 'sddefault.jpg' );});});
+
+// Breaking News==========================
+$(document).ready(function(){var e="",t=20;$.ajax({url:""+e+"/feeds/posts/default?alt=json-in-script&max-results="+t,type:"get",dataType:"jsonp",success:function(e){function t(){$("#adbreakingnews li:first").slideUp(function(){$(this).appendTo($("#adbreakingnews ul")).slideDown()})}var n,r,s="",a=e.feed.entry;if(void 0!==a){s="<ul>";for(var l=0;l<a.length;l++){for(var o=0;o<a[l].link.length;o++)if("alternate"==a[l].link[o].rel){n=a[l].link[o].href;break}r=a[l].title.$t,s+='<li><a href="'+n+'" target="_self">'+r+"</a></li>"}s+="</ul>",$("#adbreakingnews").html(s),setInterval(function(){t()},5e3)}else $("#adbreakingnews").html("<span>No result!</span>")},error:function(){$("#adbreakingnews").html("<strong>Error Loading Feed!</strong>")}})});
+//]]>
+</script>
+<script type='text/javascript'>
+var numpostsgrande =20;
+var showpostthumbnails = true;
+var showcommentnum = false;
+var showpostdate = false;
+var showpostsummary = false;
+var numchars = 1800;
+</script>
+<!-- CIERRE CDATA CARRUCEL GRANDE -->
+
+
+<div class='clear'></div>
+
+</div>
+
+
+
+<style type='text/css'>
+
+#related-post {margin:0 auto;padding:0;margin-top:1px;}
+.relhead {font-size:100%;font-weight:normal;line-height:150%;overflow:hidden;}
+#related-summary .news-text {display:none;visibility:hidden;opacity:0;position:fixed;top:-1px;left:0;text-align:left;background:rgba(0, 0, 0, 0.54);color:#fff;margin:10px;padding:10px;overflow:hidden;font-size:0%;max-height:10px;text-rendering:optimizeSpeed;text-overflow:ellipsis;}
+#related-summary li:hover .news-text {top:0;visibility:visible;opacity:1;}
+ul#related-summary {
+    margin: 0; 
+    
+/*===color fondo caja de aleatorio =  background: #000; =*/
+    
+    
+    overflow: hidden; padding: 0px 0; margin-bottom: 0px;}
+ul#related-summary li {position:relative;float:left;list-style:none outside none;margin:0 0 0 0;padding:0;overflow:hidden;    margin-bottom: 20px;width:25%}
+
+ul#related-summary li img{background-color:#000;width:115px;height:115px;margin:2 auto;vertical-align:middle;transition:all 1s ease-out;border-radius: 50%}
+ul#related-summary li img:hover {opacity:0.96;}
+ul#related-summary li a.relinkjdulx{color:#fff;display:block;font-size:10px;font-weight:bold;line-height:normal;overflow:hidden;text-align:center;padding:0px;text-transform:none}
+ul#related-summary li a.relinkjdulx:hover{color:#000;text-decoration:underline}
+
+
+/*========================== CSS Responsive ==========================*/
+@media only screen and (max-width:1024px){
+ul#related-summary { margin: 0; overflow: hidden; padding: 0px 0; position: relative; width: 100%; }
+.relhead { font-size: 100%; font-weight: normal; line-height: 15%; overflow: hidden; overflow-x: scroll; overflow-y: hidden; width: 100%; margin-bottom: 10px; }}
+
+
+</style>
+<script src='//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js'></script>
+<script type='text/javascript'>
+//<![CDATA[
+
+// recent posts by label Script==========================
+
+// Breaking News==========================
+
+//]]>
+</script>
+
+
+<script type='text/javascript'>
+//<![CDATA[
+//Related Post
+var relnojudul = 0;
+var relmaxtampil = 4;
+var numchars = 90;
+var reljudul=new Array();var relurls=new Array();var relcuplikan=new Array();var relgambar=new Array();function saringtags(g,h){var e=g.split("<");for(var f=0;f<e.length;f++){if(e[f].indexOf(">")!=-1){e[f]=e[f].substring(e[f].indexOf(">")+1,e[f].length)}}e=e.join("");e=e.substring(0,h-1);return e}function relpostimgcuplik(h){for(var e=0;e<h.feed.entry.length;e++){var g=h.feed.entry[e];reljudul[relnojudul]=g.title.$t;postcontent="";if("content" in g){postcontent=g.content.$t}else{if("summary" in g){postcontent=g.summary.$t}}relcuplikan[relnojudul]=saringtags(postcontent,numchars);if("media$thumbnail" in g){postimg=g.media$thumbnail.url}else{postimg="http://1.bp.blogspot.com/-htG7vy9vIAA/Tp0KrMUdoWI/AAAAAAAABAU/e7XkFtErqsU/s1600/grey.GIF"}relgambar[relnojudul]=postimg;for(var f=0;f<g.link.length;f++){if(g.link[f].rel=="alternate"){relurls[relnojudul]=g.link[f].href;break}}relnojudul++}}function contains(a,e){for(var f=0;f<a.length;f++){if(a[f]==e){return true}}return false}function relatedscript(){var v=new Array(0);var w=new Array(0);var x=new Array(0);var A=new Array(0);for(var u=0;u<relurls.length;u++){if(!contains(v,relurls[u])){v.length+=1;v[v.length-1]=relurls[u];w.length+=1;w[w.length-1]=reljudul[u];x.length+=1;x[x.length-1]=relcuplikan[u];A.length+=1;A[A.length-1]=relgambar[u]}}reljudul=w;relurls=v;relcuplikan=x;relgambar=A;for(var u=0;u<reljudul.length;u++){var B=Math.floor((reljudul.length-1)*Math.random());var i=reljudul[u];var s=relurls[u];var y=relcuplikan[u];var C=relgambar[u];reljudul[u]=reljudul[B];relurls[u]=relurls[B];relcuplikan[u]=relcuplikan[B];relgambar[u]=relgambar[B];reljudul[B]=i;relurls[B]=s;relcuplikan[B]=y;relgambar[B]=C}var r=0;var D=Math.floor((reljudul.length-1)*Math.random());var z=D;var q;var t=document.URL;while(r<relmaxtampil){if(relurls[D]!=t){q="<li class='news-title clearfix'>";q+="<a href='"+relurls[D]+"?native' rel='nofollow' target='_self' title='"+reljudul[D]+"'><div class='overlayb'></div><img src='"+relgambar[D]+"' /></a>";q+="<a class='relinkjdulx' href='"+relurls[D]+"' target='_top'>"+reljudul[D]+"</a>";q+="<span class='news-text'>"+relcuplikan[D]+"</span>";q+="</li>";document.write(q);r++;if(r==relmaxtampil){break}}if(D<reljudul.length-1){D++}else{D=0}if(D==z){break}}};
+//]]>
+</script>
+<div id='related-post'>
+  <div class='relhead'>
+      <div class='clear'></div>
+      <div id='outer-wrapper'>
+          <div id='content-wrapper' itemscope='itemscope' itemtype='http://schema.org/Blog' role='main'>
+
+
+              <div class='animated fadeInUp section' id='recent1'><div class='widget HTML' data-version='1' id='HTML5'>
+                  <center><h2 class='title'style="color:#fff">Aleatorio</h2></center>
+                  <div class='clear'></div>
+                  <script src='https://mavistools.blogspot.com/feeds/posts/default/-/animacion?alt=json-in-script&amp;callback=relpostimgcuplik&amp;max-results=50' type='text/javascript'></script>
+                  <script src='https://mavistools.blogspot.com/feeds/posts/default/-/drama?alt=json-in-script&amp;callback=relpostimgcuplik&amp;max-results=50' type='text/javascript'></script>
+                  <script src='https://mavistools.blogspot.com/feeds/posts/default/-/dross?alt=json-in-script&amp;callback=relpostimgcuplik&amp;max-results=50' type='text/javascript'></script>
+                  <script src='https://mavistools.blogspot.com/feeds/posts/default/-/estreno?alt=json-in-script&amp;callback=relpostimgcuplik&amp;max-results=50' type='text/javascript'></script>
+                  <script src='https://mavistools.blogspot.com/feeds/posts/default/-/accion?alt=json-in-script&amp;callback=relpostimgcuplik&amp;max-results=50' type='text/javascript'></script>
+                  <script src='https://mavistools.blogspot.com/feeds/posts/default/-/aventura?alt=json-in-script&amp;callback=relpostimgcuplik&amp;max-results=50' type='text/javascript'></script>
+                  <script src='https://mavistools.blogspot.com/feeds/posts/default/-/comedia?alt=json-in-script&amp;callback=relpostimgcuplik&amp;max-results=50' type='text/javascript'></script>
+                  <script src='https://mavistools.blogspot.com/feeds/posts/default/-/ficcion?alt=json-in-script&amp;callback=relpostimgcuplik&amp;max-results=50' type='text/javascript'></script>
+                  <script src='https://mavistools.blogspot.com/feeds/posts/default/-/netflix?alt=json-in-script&amp;callback=relpostimgcuplik&amp;max-results=50' type='text/javascript'></script>
+                  <script src='https://mavistools.blogspot.com/feeds/posts/default/-/romance?alt=json-in-script&amp;callback=relpostimgcuplik&amp;max-results=50' type='text/javascript'></script>
+                  <script src='https://mavistools.blogspot.com/feeds/posts/default/-/suspenso?alt=json-in-script&amp;callback=relpostimgcuplik&amp;max-results=50' type='text/javascript'></script>
+                  <script src='https://mavistools.blogspot.com/feeds/posts/default/-/terror?alt=json-in-script&amp;callback=relpostimgcuplik&amp;max-results=50' type='text/javascript'></script>
+
+
+
+                  <ul id='related-summary'>
+                      <script type='text/javascript'>relatedscript();</script>
+                  </ul>
+
+                  <script type='text/javascript'>
+
+
+$(".authorAvatar img").each(function(){$(this).attr("src",$(this).attr("src").replace(/\/s[0-9]+(\-c)?\//,"/w50-h50-c/"))});
+$("ul#related-summary li img").each(function(){$(this).attr("src",$(this).attr("src").replace(/\/s[0-9]+(\-c)?\//,"/w192-h270-c/"))});
+
+</script>
+                  <script type='text/javascript'>
+
+                  </script>
+
+              </div>
+              </div>
+          </div>
+      </div>
+
+
+
+      <div class='clear'></div>
+      <div id='outer-wrapper'>
+          <div id='content-wrapper' itemscope='itemscope' itemtype='http://schema.org/Blog' role='main'>
+
+
+              <div class='animated fadeInUp section' id='recent1'><h2 class='title'style="color:#fff">Ultimas peliculas</h2><div class='viewall'><a href='https://mongoliiin.blogspot.com/2020/07/version2-1.html#/feeds/posts/summary?start-index='><i aria-hidden='true' class='fa fa-list-ul'></i> Ver mas</a></div><div class='widget HTML' data-version='1' id='HTML5'>
+<div class='widget-content'>
+                      <script src="https://mavistools.blogspot.com/feeds/posts/default/-/nuevo?published&alt=json-in-script&callback=circulo" type="text/javascript"></script>
+                      
+
+                  </div>
+                  <div class='clear'></div>
+                  <span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=5619662623876327025&widgetType=HTML&widgetId=HTML5&action=editWidget§ionId=recent1' onclick='return _WidgetManager._PopupConfig(document.getElementById("HTML5"));' rel='nofollow' target='configHTML5' title='Editar'>
+
+</a>
+</span>
+</span>
+
+                  <div class='clear'></div>
+              </div> <h2 class='title'style="color:#fff">Especial Jim carrey</h2><div class='viewall'><a href='https://mongoliiin.blogspot.com/2020/07/version2-1.html#/feeds/posts/summary/-/jimcarrey?start-index='><i aria-hidden='true' class='fa fa-list-ul'></i> Ver mas</a></div><div class='widget HTML' data-version='1' id='HTML7'>
+                  
+                  <div class='widget-content'>
+                      <script src="https://mavistools.blogspot.com/feeds/posts/default/-/jimcarrey?published&alt=json-in-script&callback=labelthumbs" type="text/javascript"></script>
+                      
+
+                  </div>
+                  <div class='clear'></div>
+                  <span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=5619662623876327025&widgetType=HTML&widgetId=HTML7&action=editWidget§ionId=recent1' onclick='return _WidgetManager._PopupConfig(document.getElementById("HTML7"));' rel='nofollow' target='configHTML7' title='Editar'>
+
+</a>
+</span>
+</span>
+                  <div class='clear'></div>
+              </div><h2 class='title'style="color:#fff">Marvel</h2><div class='viewall'><a href='https://mongoliiin.blogspot.com/2020/07/version2-1.html#/feeds/posts/summary/-/marvel?start-index='><i aria-hidden='true' class='fa fa-list-ul'></i> Ver mas</a></div><div class='widget HTML' data-version='1' id='HTML7'>
+                  
+                  <div class='widget-content'>
+                      <script src="https://mavistools.blogspot.com/feeds/posts/default/-/marvel?published&alt=json-in-script&callback=labelthumbs" type="text/javascript"></script>
+                      
+
+                  </div>
+                  <div class='clear'></div>
+                  <span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=5619662623876327025&widgetType=HTML&widgetId=HTML7&action=editWidget§ionId=recent1' onclick='return _WidgetManager._PopupConfig(document.getElementById("HTML7"));' rel='nofollow' target='configHTML7' title='Editar'>
+
+</a>
+</span>
+</span>
+                  <div class='clear'></div>
+              </div><h2 class='title'style="color:#fff">Recomendacion Dross Rotzank</h2><div class='viewall'><a href='https://mongoliiin.blogspot.com/2020/07/version2-1.html#/feeds/posts/summary/-/dross?start-index='><i aria-hidden='true' class='fa fa-list-ul'></i> Ver mas</a></div><div class='widget HTML' data-version='1' id='HTML7'>
+                  
+                  <div class='widget-content'>
+                      <script src="https://mavistools.blogspot.com/feeds/posts/default/-/dross?published&alt=json-in-script&callback=labelthumbs" type="text/javascript"></script>
+                      
+
+                  </div>
+                  <div class='clear'></div>
+                  <span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=5619662623876327025&widgetType=HTML&widgetId=HTML7&action=editWidget§ionId=recent1' onclick='return _WidgetManager._PopupConfig(document.getElementById("HTML7"));' rel='nofollow' target='configHTML7' title='Editar'>
+
+</a>
+</span>
+</span>
+                  <div class='clear'></div>
+              </div><h2 class='title'style="color:#fff">Estrenos</h2><div class='viewall'><a href='https://mongoliiin.blogspot.com/2020/07/version2-1.html#/feeds/posts/summary/-/estreno?start-index='><i aria-hidden='true' class='fa fa-list-ul'></i> Ver mas</a></div><div class='widget HTML' data-version='1' id='HTML7'>
+                  
+                  <div class='widget-content'>
+                      <script src="https://mavistools.blogspot.com/feeds/posts/default/-/estreno?published&alt=json-in-script&callback=circulo" type="text/javascript"></script>
+                      
+
+                  </div>
+                  <div class='clear'></div>
+                  <span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=5619662623876327025&widgetType=HTML&widgetId=HTML7&action=editWidget§ionId=recent1' onclick='return _WidgetManager._PopupConfig(document.getElementById("HTML7"));' rel='nofollow' target='configHTML7' title='Editar'>
+
+</a>
+</span>
+</span>
+                  <div class='clear'></div>
+              </div><h2 class='title'style="color:#fff">Series</h2><div class='viewall'><a href='https://inicioydemas.blogspot.com/2019/12/series.html?native'><i aria-hidden='true' class='fa fa-list-ul'></i> Ver mas</a></div><div class='widget HTML' data-version='1' id='HTML8'>
+                  
+                  <div class='widget-content'>
+                      <script src="https://series-mavis.blogspot.com/feeds/posts/default/-/series?published&alt=json-in-script&callback=labelthumbs" type="text/javascript"></script>
+                      
+
+                  </div>
+                  <div class='clear'></div>
+                  <span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=5619662623876327025&widgetType=HTML&widgetId=HTML8&action=editWidget§ionId=recent1' onclick='return _WidgetManager._PopupConfig(document.getElementById("HTML8"));' rel='nofollow' target='configHTML8' title='Editar'>
+
+</a>
+</span>
+</span>
+                  <div class='clear'></div>
+              </div><h2 class='title'style="color:#fff">Netflix</h2><div class='viewall'><a href='https://mongoliiin.blogspot.com/2020/07/version2-1.html#/feeds/posts/summary/-/netflix?start-index='><i aria-hidden='true' class='fa fa-list-ul'></i> Ver mas</a></div><div class='widget HTML' data-version='1' id='HTML8'>
+                  
+                  <div class='widget-content'>
+                      <script src="https://mavistools.blogspot.com/feeds/posts/default/-/netflix?published&alt=json-in-script&callback=labelthumbs" type="text/javascript"></script>
+                      
+
+                  </div>
+                  <div class='clear'></div>
+                  <span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=5619662623876327025&widgetType=HTML&widgetId=HTML8&action=editWidget§ionId=recent1' onclick='return _WidgetManager._PopupConfig(document.getElementById("HTML8"));' rel='nofollow' target='configHTML8' title='Editar'>
+
+</a>
+</span>
+</span>
+                  <div class='clear'></div>
+              </div><h2 class='title'style="color:#fff">Doramas</h2><div class='viewall'><a href='http://rayx.epizy.com/ifra.php?v=https://www8.doramasmp4.com/catalogue?native'target='_self'><i aria-hidden='true' class='fa fa-list-ul'></i> Ver mas</a></div><div class='widget HTML' data-version='1' id='HTML8'>
+                  
+                  <div class='widget-content'>
+                      <script src="https://mavistools.blogspot.com/feeds/posts/default/-/dorama?published&alt=json-in-script&callback=labelthumbs" type="text/javascript"></script>
+                      
+
+                  </div>
+                  <div class='clear'></div>
+                  <span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=5619662623876327025&widgetType=HTML&widgetId=HTML8&action=editWidget§ionId=recent1' onclick='return _WidgetManager._PopupConfig(document.getElementById("HTML8"));' rel='nofollow' target='configHTML8' title='Editar'>
+
+</a>
+</span>
+</span>
+                  <div class='clear'></div>
+              </div><h2 class='title'style="color:#fff">religion</h2><div class='viewall'><a href='http://rayx.epizy.com/ifra.php?v=https://www.bibliatodo.com/PeliculasCristianas?native'><i aria-hidden='true' class='fa fa-list-ul'></i> Ver mas</a></div><div class='widget HTML' data-version='1' id='HTML8'>
+                  
+                  <div class='widget-content'>
+                      <script src="https://mavistools.blogspot.com/feeds/posts/default/-/religion?published&alt=json-in-script&callback=labelthumbs" type="text/javascript"></script>
+                      
+
+                  </div>
+                  <div class='clear'></div>
+                  <span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=5619662623876327025&widgetType=HTML&widgetId=HTML8&action=editWidget§ionId=recent1' onclick='return _WidgetManager._PopupConfig(document.getElementById("HTML8"));' rel='nofollow' target='configHTML8' title='Editar'>
+
+</a>
+</span>
+</span>
+                  <div class='clear'></div>
+              </div><h2 class='title'style="color:#fff">Anime</h2><div class='viewall'><a href='http://rayx.epizy.com/ifra.php?v=https://tioanime.com/directorio?native'><i aria-hidden='true' class='fa fa-list-ul'></i> Ver mas</a></div><div class='widget HTML' data-version='1' id='HTML8'>
+                  
+                  <div class='widget-content'>
+                      <script src="https://mavistools.blogspot.com/feeds/posts/default/-/anime?published&alt=json-in-script&callback=labelthumbs" type="text/javascript"></script>
+                      
+
+                  </div>
+                  <div class='clear'></div>
+                  <span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=5619662623876327025&widgetType=HTML&widgetId=HTML8&action=editWidget§ionId=recent1' onclick='return _WidgetManager._PopupConfig(document.getElementById("HTML8"));' rel='nofollow' target='configHTML8' title='Editar'>
+
+</a>
+</span>
+</span>
+
+                  <div class='clear'></div>
+              </div><h2 class='title'style="color:#fff">Animacion</h2><div class='viewall'><a href='https://mongoliiin.blogspot.com/2020/07/version2-1.html#/feeds/posts/summary/-/animacion?start-index='><i aria-hidden='true' class='fa fa-list-ul'></i> Ver mas</a></div><div class='widget HTML' data-version='1' id='HTML7'>
+                  
+                  <div class='widget-content'>
+                      <script src="https://mavistools.blogspot.com/feeds/posts/default/-/animacion?published&alt=json-in-script&callback=labelthumbs" type="text/javascript"></script>
+                      
+
+                  </div>
+                  <div class='clear'></div>
+                  <span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=5619662623876327025&widgetType=HTML&widgetId=HTML7&action=editWidget§ionId=recent1' onclick='return _WidgetManager._PopupConfig(document.getElementById("HTML7"));' rel='nofollow' target='configHTML7' title='Editar'>
+
+</a>
+</span>
+</span>
+
+                  <div class='clear'></div>
+              </div><h2 class='title'style="color:#fff">Drama</h2><div class='viewall'><a href='https://mongoliiin.blogspot.com/2020/07/version2-1.html#/feeds/posts/summary/-/drama?start-index='><i aria-hidden='true' class='fa fa-list-ul'></i> Ver mas</a></div><div class='widget HTML' data-version='1' id='HTML11'>
+                  
+                  <div class='widget-content'>
+                      <script src="https://mavistools.blogspot.com/feeds/posts/default/-/drama?published&alt=json-in-script&callback=labelthumbs" type="text/javascript"></script>
+                      
+
+                  </div>
+                  <div class='clear'></div>
+                  <span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=5619662623876327025&widgetType=HTML&widgetId=HTML11&action=editWidget§ionId=recent1' onclick='return _WidgetManager._PopupConfig(document.getElementById("HTML11"));' rel='nofollow' target='configHTML11' title='Editar'>
+
+</a>
+</span>
+</span>
+                  <div class='clear'></div>
+              </div><h2 class='title'style="color:#fff">Comedia</h2><div class='viewall'><a href='https://mongoliiin.blogspot.com/2020/07/version2-1.html#/feeds/posts/summary/-/comedia?start-index='><i aria-hidden='true' class='fa fa-list-ul'></i> Ver mas</a></div><div class='widget HTML' data-version='1' id='HTML7'>
+                  
+                  <div class='widget-content'>
+                      <script src="https://mavistools.blogspot.com/feeds/posts/default/-/comedia?published&alt=json-in-script&callback=labelthumbs" type="text/javascript"></script>
+                      
+
+                  </div>
+                  <div class='clear'></div>
+                  <span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=5619662623876327025&widgetType=HTML&widgetId=HTML7&action=editWidget§ionId=recent1' onclick='return _WidgetManager._PopupConfig(document.getElementById("HTML7"));' rel='nofollow' target='configHTML7' title='Editar'>
+
+</a>
+</span>
+</span>
+                  <div class='clear'></div>
+              </div><h2 class='title'style="color:#fff">Romance</h2><div class='viewall'><a href='https://mongoliiin.blogspot.com/2020/07/version2-1.html#/feeds/posts/summary/-/romance?start-index='><i aria-hidden='true' class='fa fa-list-ul'></i> Ver mas</a></div><div class='widget HTML' data-version='1' id='HTML7'>
+                  
+                  <div class='widget-content'>
+                      <script src="https://mavistools.blogspot.com/feeds/posts/default/-/romance?published&alt=json-in-script&callback=labelthumbs" type="text/javascript"></script>
+                      
+
+                  </div>
+                  <div class='clear'></div>
+                  <span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=5619662623876327025&widgetType=HTML&widgetId=HTML7&action=editWidget§ionId=recent1' onclick='return _WidgetManager._PopupConfig(document.getElementById("HTML7"));' rel='nofollow' target='configHTML7' title='Editar'>
+
+</a>
+</span>
+</span>
+                  <div class='clear'></div>
+              </div><h2 class='title'style="color:#fff">Ficcion</h2><div class='viewall'><a href='https://mongoliiin.blogspot.com/2020/07/version2-1.html#/feeds/posts/summary/-/ficcion?start-index='><i aria-hidden='true' class='fa fa-list-ul'></i> Ver mas</a></div><div class='widget HTML' data-version='1' id='HTML8'>
+                  
+                  <div class='widget-content'>
+                      <script src="https://mavistools.blogspot.com/feeds/posts/default/-/ficcion?published&alt=json-in-script&callback=labelthumbs" type="text/javascript"></script>
+                      
+
+                  </div>
+                  <div class='clear'></div>
+                  <span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=5619662623876327025&widgetType=HTML&widgetId=HTML8&action=editWidget§ionId=recent1' onclick='return _WidgetManager._PopupConfig(document.getElementById("HTML8"));' rel='nofollow' target='configHTML8' title='Editar'>
+
+</a>
+</span>
+</span>
+                  <div class='clear'></div>
+              </div><h2 class='title'style="color:#fff">Terror</h2><div class='viewall'><a href='https://mongoliiin.blogspot.com/2020/07/version2-1.html#/feeds/posts/summary/-/terror?start-index='><i aria-hidden='true' class='fa fa-list-ul'></i> Ver mas</a></div><div class='widget HTML' data-version='1' id='HTML2'>
+                  
+                  <div class='widget-content'>
+                      <script src="https://mavistools.blogspot.com/feeds/posts/default/-/terror?published&alt=json-in-script&callback=labelthumbs" type="text/javascript"></script>
+                      
+
+                  </div>
+                  <div class='clear'></div>
+                  <span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=5619662623876327025&widgetType=HTML&widgetId=HTML2&action=editWidget§ionId=recent1' onclick='return _WidgetManager._PopupConfig(document.getElementById("HTML2"));' rel='nofollow' target='configHTML2' title='Editar'>
+
+</a>
+</span>
+</span>
+                  <div class='clear'></div>
+              </div><h2 class='title'style="color:#fff">Accion</h2><div class='viewall'><a href='https://mongoliiin.blogspot.com/2020/07/version2-1.html#/feeds/posts/summary/-/accion?start-index='><i aria-hidden='true' class='fa fa-list-ul'></i> Ver mas</a></div><div class='widget HTML' data-version='1' id='HTML4'>
+                  
+                  <div class='widget-content'>
+                      <script src="https://mavistools.blogspot.com/feeds/posts/default/-/accion?published&alt=json-in-script&callback=labelthumbs" type="text/javascript"></script>
+                      
+
+                  </div>
+                  <div class='clear'></div>
+                  <span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=5619662623876327025&widgetType=HTML&widgetId=HTML4&action=editWidget§ionId=recent1' onclick='return _WidgetManager._PopupConfig(document.getElementById("HTML4"));' rel='nofollow' target='configHTML4' title='Editar'>
+
+</a>
+</span>
+</span>
+                  <div class='clear'></div>
+              </div></div>
+
+              <div class='clear'></div>
+              <div class='post-inner'>
+                  <div class='main section' id='main'><div class='widget Blog' data-version='1' id='Blog1'>
+                      <div class='blog-posts hfeed'>
+                          <div class='status-msg-wrap'>
+
+
+                          </div>
+
+
+
+
+
+                          <script>
+   (function() {
+var tabs = Array.prototype.slice.call(document.querySelectorAll('#features > nav a'));
+var tabsContent = Array.prototype.slice.call(document.querySelectorAll('#features > article > section'));
+tabs.forEach(x=>{
+  x.addEventListener('click', function(e) {
+    e.preventDefault();
+    var that = this;
+    tabs.forEach(x=> x.className = x.className.replace('is-selected', ''));
+    that.className += ' is-selected';
+    tabsContent.forEach(x=>x.className = x.className.replace('is-selected', ''));
+    tabsContent
+      .filter(
+        (tab, i) => tab.dataset.id === that.dataset.id
+      )
+      .forEach(x=>x.className +=' is-selected');
+  });
+});
+})();
+
+</script></div></div></div></div></div></div></div></div></!doctype>
+
+
+
+<!--Padredefamilia 5-->
+<script>
+  var beatles = ['','  <option value = " #" > Categorias </option><option value = "https://mongoliiin.blogspot.com/2020/07/version2-1.html#/feeds/posts/summary?start-index=" > Todo lo nuevo </option><option value = "https://mongoliiin.blogspot.com/2020/07/version2-1.html#/feeds/posts/summary/-/dross?start-index=" > Dross </option><option value = "https://mongoliiin.blogspot.com/2020/07/version2-1.html#/feeds/posts/summary/-/estreno?start-index=" > Estrenos </option><option value = "https://mongoliiin.blogspot.com/2020/07/version2-1.html#/feeds/posts/summary/-/accion?start-index=" > Accion </option><option value = "https://mongoliiin.blogspot.com/2020/07/version2-1.html#/feeds/posts/summary/-/ficcion?start-index=" > Ficcion </option><option value = "https://mongoliiin.blogspot.com/2020/07/version2-1.html#/feeds/posts/summary/-/terror?start-index=" > Terror </option><option value = "https://mongoliiin.blogspot.com/2020/07/version2-1.html#/feeds/posts/summary/-/romance?start-index=" > Romance </option><option value = "https://mongoliiin.blogspot.com/2020/07/version2-1.html#/feeds/posts/summary/-/comedia?start-index=" > Comedia </option><option value = "https://mongoliiin.blogspot.com/2020/07/version2-1.html#/feeds/posts/summary/-/drama?start-index=" > Drama </option><option value = "https://mongoliiin.blogspot.com/2020/07/version2-1.html#/feeds/posts/summary/-/animacion?start-index=" > Animacion </option><option value = "http://rayx.epizy.com/ifra.php?v=https://www.bibliatodo.com/PeliculasCristianas?native" > Religion </option><option value = "http://rayx.epizy.com/ifra.php?v=https://tioanime.com/directorio?native" > Anime </option><option value = "http://rayx.epizy.com/ifra.php?v=https://www8.doramasmp4.com/catalogue?native" > Doramas </option><option value = "https://mongoliiin.blogspot.com/2020/07/version2-1.html#/feeds/posts/summary/-/marvel?start-index=" > Marvel </option>',
+
+
+];
+
+var list = "" + beatles.map(function(beatle) {
+  return "" + beatle + "";
+}).join('<select name = "select-city" onchange = " location = this . value ; " <button class="btn hero-cta-btn btn-large btn-red" <span class="hero-cta-btn-txt">Reproductor row</span><span class="chevron-right-arrow"></span></button>') + "";
+
+var app = document.querySelector('#app');
+pdfamily5.innerHTML = list;
+</script>
+<!--Padredefamilia 5 cierre-->
+
+<script type='text/javascript'>
+$(function(){
+  $(document).bind("contextmenu",function(e){
+      return false;
+  });
+});
+</script>
+
