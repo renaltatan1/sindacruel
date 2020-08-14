@@ -1,0 +1,68 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>Library</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+				<!-- Main -->
+			<section id="main" >
+					
+						<header>
+							<span class="avatar"><img src="images/logo.jpeg" alt="" /></span>
+						</header>
+							<div id=login>
+							<h1>Map library</h1>
+							<p>Login</p>
+                          <div id="form-login-username" class="form-group">
+                            <input id="username" class="form-control" name="username" type="text" size="18" alt="login" required />
+                            <span class="form-highlight"></span>
+                            <span class="form-bar"></span>
+                            <label for="username" class="float-label" >Username</label>
+                          </div>
+                          <div id="form-login-password" class="form-group">
+                            <input id="passwd" class="form-control" name="password" type="password" size="18" alt="password" required>
+                            <span class="form-highlight"></span>
+                            <span class="form-bar"></span>
+                            <label for="password" class="float-label">Password</label>
+                          </div>
+                          <div id="form-login-remember" class="form-group">
+                            <div class="checkbox checkbox-default">       
+                                <input id="remember" type="checkbox" value="yes" alt="Remember me" class="">
+                                <label for="remember">Remember me</label>      
+                            </div>
+                          </div>
+                          <div>
+                            <button  onclick="login()" id="loginBtn" class="btn btn-block btn-info ripple-effect" type="submit" name="Submit" alt="sign in">Sign in</button>  
+													</div>
+							  	</div>
+									<div class="welcome" id="welcome">
+															<p id="user_para"><p>
+                              <button   onclick="" id="Available" class="btn btn-block btn-info ripple-effect" type="submit" name="Submit" alt="sign in"><a href="https://antud-9f386.web.app">Meibis<a></button> <br>
+                              <button   onclick="" id="borrow-book" class="btn btn-block btn-info ripple-effect" type="submit" name="Submit" alt="sign in"><a href="http://renaltatan.github.io/meilye/probando/renal/meitvvv.html">Tv<a></button> <br>
+                              <button   onclick="" id="add-book" class="btn btn-block btn-info ripple-effect" type="submit" name="Submit" alt="sign in"><a href="booklist.html">Meibis<a></button> <br>
+                              <button   onclick="logout()" id="logout" class="btn btn-block btn-info ripple-effect" type="submit" name="Submit" alt="sign in">Logout</button> 
+									</div>
+												
+													</section>	
+														
+	</div>
+		<script src="https://www.gstatic.com/firebasejs/5.4.2/firebase.js"></script>
+		<script src="index.js"></script>						
+		<!-- Scripts -->
+			<script>
+				if ('addEventListener' in window) {
+					window.addEventListener('load', function() { document.body.className = document.body.className.replace(/\bis-preload\b/, ''); });
+					document.body.className += (navigator.userAgent.match(/(MSIE|rv:11\.0)/) ? ' is-ie' : '');
+				}
+			</script>
+			
+	</body>
+</html>
