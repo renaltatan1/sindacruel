@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  outline: none;
+}
+
+.page-title-span {
+  margin-left: 10px;
+}
+
+.button-right-icon {
+  margin-left: 10px;
+}
+
+/*Login Section */
+
+.login-cover {
+  background-image: url("https://3.bp.blogspot.com/-xK9a3ID-AN4/XzhHdFKQ94I/AAAAAAAALx8/XKAJCVsz7fAtNlqip9BLM8FnehTN8ln2wCLcBGAsYHQ/s1600/optimizado.jpg");
+ background-color: #000;
+    background-repeat: no-repeat;
+   background-size: 100% 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 800;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#loginProgress {
+  display: none;
+}
+
+#loginError {
+  display: none;
+}
