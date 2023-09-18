@@ -2,11 +2,11 @@
     "appconfiguration": {
         "app_name": "Friend",
         "url": "https:\/\/www.netflix.com\/pe\/title\/80057918",
-        "appLanuguage": "es",
+        "appLanuguage": "en",
         "isJavascriptEnable": "true",
         "isSplashScreen": "true",
         "isZoomFunctionality": "false",
-        "navigationStyle": "sidedrawer",
+        "navigationStyle": "fullscreen",
         "header_style": "empty_header",
         "is_walkthrough": "true",
         "is_webrtc": "false",
@@ -39,10 +39,10 @@
         "loaderStyle": "WanderingCubes"
     },
     "theme": {
-        "themeStyle": "Gradient",
+        "themeStyle": "Theme14",
         "customColor": null,
-        "gradientColor1": "#4788ff",
-        "gradientColor2": "#4788ff"
+        "gradientColor1": null,
+        "gradientColor2": null
     },
     "about": {
         "whatsAppNumber": "98796543210",
@@ -81,18 +81,6 @@
     "share_content": {
         "share": "share conntentt https:\/\/meetmighty.com\/mighty\/contact\/"
     },
-    "menu_style": [
-        {
-            "id": "7",
-            "title": "About",
-            "type": "sidedrawer",
-            "image": "http:\/\/felizon.wuaze.com\/source\/upload\/menu\/1618655222-icon_4.png",
-            "url": "https:\/\/themeforest.net\/user\/meetmighty",
-            "status": "1",
-            "parent_id": "0",
-            "children": []
-        }
-    ],
     "header_icon": {
         "lefticon": [
             {
