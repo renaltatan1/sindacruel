@@ -7,7 +7,7 @@
         "isSplashScreen": "true",
         "isZoomFunctionality": "false",
         "navigationStyle": "sidedrawer",
-        "header_style": "left",
+        "header_style": "empty_header",
         "is_walkthrough": "true",
         "is_webrtc": "false",
         "is_floating_button": "false",
@@ -18,8 +18,8 @@
         "walkthrough_style": "walkthrough_style_3",
         "clear_cookie": "false",
         "isExitPopupScreen": "true",
-        "disable_header": "false",
-        "disable_footer": "false",
+        "disable_header": "true",
+        "disable_footer": "true",
         "app_logo": "http:\/\/felizon.wuaze.com\/source\/upload\/app_logo.png",
         "floating_button": "http:\/\/felizon.wuaze.com\/source\/upload\/floating_button.png"
     },
@@ -39,10 +39,10 @@
         "loaderStyle": "WanderingCubes"
     },
     "theme": {
-        "themeStyle": "Custom",
-        "customColor": "#4788ff",
-        "gradientColor1": null,
-        "gradientColor2": null
+        "themeStyle": "Gradient",
+        "customColor": null,
+        "gradientColor1": "#4788ff",
+        "gradientColor2": "#4788ff"
     },
     "about": {
         "whatsAppNumber": "98796543210",
