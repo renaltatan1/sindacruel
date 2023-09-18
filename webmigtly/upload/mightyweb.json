@@ -1,7 +1,7 @@
 {
     "appconfiguration": {
         "app_name": "Friend",
-        "url": "https://www.netflix.com/pe/title/80057918?preventIntent=true",
+        "url": "https:\/\/www.netflix.com\/pe\/title\/80057918",
         "appLanuguage": "es",
         "isJavascriptEnable": "true",
         "isSplashScreen": "true",
@@ -10,7 +10,7 @@
         "header_style": "left",
         "is_walkthrough": "true",
         "is_webrtc": "false",
-        "is_floating_button": "true",
+        "is_floating_button": "false",
         "floating_button_style": "regular",
         "is_pull_refresh": "true",
         "tab_style": "tab_with_title_icon",
@@ -39,8 +39,8 @@
         "loaderStyle": "WanderingCubes"
     },
     "theme": {
-        "themeStyle": "Default",
-        "customColor": null,
+        "themeStyle": "Custom",
+        "customColor": "#4788ff",
         "gradientColor1": null,
         "gradientColor2": null
     },
@@ -69,7 +69,7 @@
         "enable_logo": "true",
         "enable_background": "true",
         "splash_logo_url": "http:\/\/felizon.wuaze.com\/source\/upload\/splash_logo.png",
-        "splash_background_url": "https://e0.pxfuel.com/wallpapers/235/619/desktop-wallpaper-inspired-by-the-colours-and-shapes-of-the-90-s-memphis-style-90s.jpg"
+        "splash_background_url": "http:\/\/felizon.wuaze.com\/source\/upload\/splash_background.png"
     },
     "exitpopup_configuration": {
         "title": "Do you want to exit at this moment? ",
