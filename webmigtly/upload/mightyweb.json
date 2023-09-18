@@ -6,7 +6,7 @@
         "isJavascriptEnable": "true",
         "isSplashScreen": "true",
         "isZoomFunctionality": "false",
-        "navigationStyle": "fullscreen",
+        "navigationStyle": "sidedrawer",
         "header_style": "empty_header",
         "is_walkthrough": "true",
         "is_webrtc": "false",
@@ -15,13 +15,13 @@
         "is_pull_refresh": "false",
         "tab_style": "tab_with_title_icon",
         "bottom_navigation": "bottom_navigation_3",
-        "walkthrough_style": "walkthrough_style_3",
+        "walkthrough_style": "walkthrough_style_2",
         "clear_cookie": "false",
         "isExitPopupScreen": "true",
         "disable_header": "true",
         "disable_footer": "true",
-        "app_logo": "http:\/\/felizon.wuaze.com\/source\/upload\/app_logo.png",
-        "floating_button": "http:\/\/felizon.wuaze.com\/source\/upload\/floating_button.png"
+        "app_logo": "http://felizon.wuaze.com/source/upload/app_logo.png",
+        "floating_button": "http://felizon.wuaze.com/source/upload/floating_button.png"
     },
     "admob": {
         "ads_type": "none",
@@ -46,14 +46,14 @@
     },
     "about": {
         "whatsAppNumber": "98796543210",
-        "instagramUrl": "https:\/\/www.instagram.com\/",
-        "twitterUrl": "https:\/\/twitter.com\/login",
-        "facebookUrl": "https:\/\/www.facebook.com\/",
+        "instagramUrl": "https://www.instagram.com/",
+        "twitterUrl": "https://twitter.com/login",
+        "facebookUrl": "https://www.facebook.com/",
         "callNumber": "9876543210",
-        "snapchat": "https:\/\/www.snapchat.com\/",
-        "skype": "https:\/\/www.skype.com\/en\/",
-        "messenger": "https:\/\/www.messenger.com\/",
-        "youtube": "https:\/\/www.youtube.com\/",
+        "snapchat": "https://www.snapchat.com/",
+        "skype": "https://www.skype.com/en/",
+        "messenger": "https://www.messenger.com/",
+        "youtube": "https://www.youtube.com/",
         "isShowAbout": "true"
     },
     "onesignal_configuration": {
@@ -68,19 +68,31 @@
         "title_color": "#ffffff",
         "enable_logo": "true",
         "enable_background": "true",
-        "splash_logo_url": "http:\/\/felizon.wuaze.com\/source\/upload\/splash_logo.png",
-        "splash_background_url": "http:\/\/felizon.wuaze.com\/source\/upload\/splash_background.png"
+        "splash_logo_url": "http://felizon.wuaze.com/source/upload/splash_logo.png",
+        "splash_background_url": "http://felizon.wuaze.com/source/upload/splash_background.png"
     },
     "exitpopup_configuration": {
         "title": "Do you want to exit at this moment? ",
         "positive_text": "Yes",
         "negative_text": "No",
         "enable_image": "true",
-        "exit_image_url": "https:\/\/meetmighty.com\/mightywebbuilder\/upload\/cancel.png"
+        "exit_image_url": "https://meetmighty.com/mightywebbuilder/upload/cancel.png"
     },
     "share_content": {
-        "share": "share conntentt https:\/\/meetmighty.com\/mighty\/contact\/"
+        "share": "share conntentt https://meetmighty.com/mighty/contact/"
     },
+    "menu_style": [
+        {
+            "id": "7",
+            "title": "About",
+            "type": "sidedrawer",
+            "image": "http://felizon.wuaze.com/source/upload/menu/1618655222-icon_4.png",
+            "url": "https://themeforest.net/user/meetmighty",
+            "status": "1",
+            "parent_id": "0",
+            "children": []
+        }
+    ],
     "header_icon": {
         "lefticon": [
             {
@@ -122,7 +134,7 @@
                 "value": "ic_profile",
                 "image": "ic_profile.png",
                 "type": "url",
-                "url": "https:\/\/www.google.com\/",
+                "url": "https://www.google.com/",
                 "status": "0",
                 "created_at": "2021-04-09 05:20:29",
                 "updated_at": "2021-04-09 05:20:29"
@@ -144,7 +156,7 @@
                 "value": "ic_search",
                 "image": "ic_search.png",
                 "type": "url",
-                "url": "https:\/\/www.google.com\/",
+                "url": "https://www.google.com/",
                 "status": "0",
                 "created_at": "2021-04-09 05:20:36",
                 "updated_at": "2021-04-09 05:20:36"
@@ -155,7 +167,7 @@
                 "value": "ic_add",
                 "image": "ic_add.png",
                 "type": "url",
-                "url": "https:\/\/www.google.com\/",
+                "url": "https://www.google.com/",
                 "status": "0",
                 "created_at": "2021-04-09 05:20:51",
                 "updated_at": "2021-04-09 05:20:51"
@@ -179,7 +191,7 @@
                 "value": "ic_search",
                 "image": "ic_search.png",
                 "type": "url",
-                "url": "https:\/\/www.google.com\/",
+                "url": "https://www.google.com/",
                 "status": "1",
                 "created_at": "2020-06-07 21:48:16",
                 "updated_at": "2020-06-07 21:48:16"
@@ -190,7 +202,7 @@
                 "value": "ic_cart",
                 "image": "ic_cart.png",
                 "type": "url",
-                "url": "https:\/\/www.myntra.com\/",
+                "url": "https://www.myntra.com/",
                 "status": "0",
                 "created_at": "2021-04-09 05:11:40",
                 "updated_at": "2021-04-09 05:11:40"
@@ -201,7 +213,7 @@
                 "value": "ic_settings",
                 "image": "ic_settings.png",
                 "type": "url",
-                "url": "https:\/\/www.google.com\/",
+                "url": "https://www.google.com/",
                 "status": "0",
                 "created_at": "2021-04-09 10:33:15",
                 "updated_at": "2021-04-09 10:33:17"
@@ -234,7 +246,7 @@
                 "value": "ic_profile",
                 "image": "ic_profile.png",
                 "type": "url",
-                "url": "https:\/\/www.google.com\/",
+                "url": "https://www.google.com/",
                 "status": "0",
                 "created_at": "2021-04-09 05:11:54",
                 "updated_at": "2021-04-09 05:11:54"
@@ -245,7 +257,7 @@
                 "value": "ic_message",
                 "image": "ic_message.png",
                 "type": "url",
-                "url": "https:\/\/www.google.com\/",
+                "url": "https://www.google.com/",
                 "status": "0",
                 "created_at": "2021-04-09 05:12:47",
                 "updated_at": "2021-04-09 05:12:47"
@@ -256,7 +268,7 @@
                 "value": "ic_notification",
                 "image": "ic_notification.png",
                 "type": "url",
-                "url": "https:\/\/www.google.com\/",
+                "url": "https://www.google.com/",
                 "status": "0",
                 "created_at": "2021-04-09 05:13:11",
                 "updated_at": "2021-04-09 05:13:11"
@@ -267,7 +279,7 @@
                 "value": "ic_favourite",
                 "image": "ic_favourite.png\r\n",
                 "type": "url",
-                "url": "https:\/\/www.google.com\/",
+                "url": "https://www.google.com/",
                 "status": "0",
                 "created_at": "2021-06-24 17:01:26",
                 "updated_at": null
@@ -278,7 +290,7 @@
                 "value": "ic_add",
                 "image": "ic_add.png",
                 "type": "url",
-                "url": "https:\/\/www.google.com\/",
+                "url": "https://www.google.com/",
                 "status": "0",
                 "created_at": "2021-06-24 17:01:26",
                 "updated_at": null
@@ -289,7 +301,7 @@
                 "value": "ic_list",
                 "image": "ic_list.png",
                 "type": "url",
-                "url": "https:\/\/www.google.com\/",
+                "url": "https://www.google.com/",
                 "status": "0",
                 "created_at": "2021-06-24 17:03:34",
                 "updated_at": null
@@ -300,7 +312,7 @@
                 "value": "ic_filter",
                 "image": "ic_filter.png",
                 "type": "url",
-                "url": "https:\/\/www.google.com\/",
+                "url": "https://www.google.com/",
                 "status": "0",
                 "created_at": "2021-06-24 17:03:34",
                 "updated_at": null
@@ -311,7 +323,7 @@
                 "value": "ic_chat",
                 "image": "ic_chat.png",
                 "type": "url",
-                "url": "https:\/\/www.google.com\/",
+                "url": "https://www.google.com/",
                 "status": "0",
                 "created_at": "2021-06-24 17:04:24",
                 "updated_at": null
@@ -322,7 +334,7 @@
                 "value": "ic_about",
                 "image": "ic_about.png",
                 "type": "url",
-                "url": "https:\/\/www.google.com\/",
+                "url": "https://www.google.com/",
                 "status": "0",
                 "created_at": "2021-06-24 17:04:24",
                 "updated_at": null
@@ -344,15 +356,15 @@
         {
             "id": "1",
             "title": "Mighty Web",
-            "subtitle": "MightyWeb app is used to convert your Website to Application Mobile",
-            "image": "http:\/\/felizon.wuaze.com\/source\/upload\/walkthrough\/default.png",
+            "subtitle": "BUena app testeando",
+            "image": "http://felizon.wuaze.com/source/upload/walkthrough/default.png",
             "status": "1"
         },
         {
             "id": "2",
             "title": "Theme Style",
             "subtitle": "Mighty Web holds stunning options of Theme styles that you can apply to your mobile app to define your app better.",
-            "image": "http:\/\/felizon.wuaze.com\/source\/upload\/walkthrough\/default.png",
+            "image": "http://felizon.wuaze.com/source/upload/walkthrough/default.png",
             "status": "1"
         }
     ],
@@ -360,29 +372,29 @@
         {
             "id": "1",
             "title": "Search",
-            "image": "http:\/\/felizon.wuaze.com\/source\/upload\/floatingbutton\/ic_search.png",
-            "url": "https:\/\/www.google.com\/",
+            "image": "http://felizon.wuaze.com/source/upload/floatingbutton/ic_search.png",
+            "url": "https://www.google.com/",
             "status": "1"
         },
         {
             "id": "2",
             "title": "Message",
-            "image": "http:\/\/felizon.wuaze.com\/source\/upload\/floatingbutton\/ic_message.png",
-            "url": "https:\/\/www.google.com\/",
+            "image": "http://felizon.wuaze.com/source/upload/floatingbutton/ic_message.png",
+            "url": "https://www.google.com/",
             "status": "1"
         },
         {
             "id": "3",
             "title": "Share",
-            "image": "http:\/\/felizon.wuaze.com\/source\/upload\/floatingbutton\/ic_share.png",
-            "url": "https:\/\/www.google.com\/",
+            "image": "http://felizon.wuaze.com/source/upload/floatingbutton/ic_share.png",
+            "url": "https://www.google.com/",
             "status": "1"
         },
         {
             "id": "4",
             "title": "Home",
-            "image": "http:\/\/felizon.wuaze.com\/source\/upload\/floatingbutton\/ic_home.png",
-            "url": "https:\/\/www.google.com\/",
+            "image": "http://felizon.wuaze.com/source/upload/floatingbutton/ic_home.png",
+            "url": "https://www.google.com/",
             "status": "1"
         }
     ],
@@ -390,29 +402,29 @@
         {
             "id": "1",
             "title": "Home",
-            "image": "http:\/\/felizon.wuaze.com\/source\/upload\/tabs\/ic_home.png",
-            "url": "https:\/\/www.google.com\/",
+            "image": "http://felizon.wuaze.com/source/upload/tabs/ic_home.png",
+            "url": "https://www.google.com/",
             "status": "1"
         },
         {
             "id": "2",
             "title": "Search",
-            "image": "http:\/\/felizon.wuaze.com\/source\/upload\/tabs\/ic_search.png",
-            "url": "https:\/\/www.google.com\/",
+            "image": "http://felizon.wuaze.com/source/upload/tabs/ic_search.png",
+            "url": "https://www.google.com/",
             "status": "1"
         },
         {
             "id": "3",
             "title": "Profile",
-            "image": "http:\/\/felizon.wuaze.com\/source\/upload\/tabs\/ic_profile.png",
-            "url": "https:\/\/www.google.com\/",
+            "image": "http://felizon.wuaze.com/source/upload/tabs/ic_profile.png",
+            "url": "https://www.google.com/",
             "status": "1"
         },
         {
             "id": "4",
             "title": "Wishlist",
-            "image": "http:\/\/felizon.wuaze.com\/source\/upload\/tabs\/ic_heart.png",
-            "url": "https:\/\/www.google.com\/",
+            "image": "http://felizon.wuaze.com/source/upload/tabs/ic_heart.png",
+            "url": "https://www.google.com/",
             "status": "1"
         }
     ],
@@ -421,7 +433,14 @@
             "id": "1",
             "title": "Web Browser",
             "android": "random",
-            "ios": "Mozilla\/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit\/605.1.15 (KHTML, like Gecko) Version\/12.1 Mobile\/15E148 Safari\/604.1",
+            "ios": "Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1 Mobile/15E148 Safari/604.1",
+            "status": "1"
+        },
+        {
+            "id": "2",
+            "title": "nose que es",
+            "android": "",
+            "ios": "ios",
             "status": "1"
         }
     ],
@@ -429,8 +448,22 @@
         {
             "id": "1",
             "title": "probando cod netflix ",
-            "image": "http:\/\/felizon.wuaze.com\/source\/upload\/pages\/default.png",
-            "url": "https:\/\/tvyserieslatino.blogspot.com\/2023\/09\/test.html",
+            "image": "http://felizon.wuaze.com/source/upload/pages/default.png",
+            "url": "https://tvyserieslatino.blogspot.com/2023/09/test.html",
+            "status": "1"
+        },
+        {
+            "id": "2",
+            "title": "Tv",
+            "image": "http://felizon.wuaze.com/source/upload/pages/default.png",
+            "url": "https://www.portalbarranca.com/2023/03/america-tv-peru-en-vivo.html",
+            "status": "1"
+        },
+        {
+            "id": "3",
+            "title": "netflix",
+            "image": "http://felizon.wuaze.com/source/upload/pages/default.png",
+            "url": "https://www.netflix.com/pe/title/80095697",
             "status": "1"
         }
     ]
