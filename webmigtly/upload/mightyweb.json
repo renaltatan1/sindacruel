@@ -66,7 +66,7 @@
         "title": "Mighty Web",
         "enable_title": "true",
         "title_color": "#ffffff",
-        "enable_logo": "false",
+        "enable_logo": "true",
         "enable_background": "true",
         "splash_logo_url": "http:\/\/felizon.wuaze.com\/source\/upload\/splash_logo.png",
         "splash_background_url": "http:\/\/felizon.wuaze.com\/source\/upload\/splash_background.png"
