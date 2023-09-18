@@ -12,7 +12,7 @@
         "is_webrtc": "false",
         "is_floating_button": "false",
         "floating_button_style": "regular",
-        "is_pull_refresh": "true",
+        "is_pull_refresh": "false",
         "tab_style": "tab_with_title_icon",
         "bottom_navigation": "bottom_navigation_3",
         "walkthrough_style": "walkthrough_style_3",
@@ -39,7 +39,7 @@
         "loaderStyle": "WanderingCubes"
     },
     "theme": {
-        "themeStyle": "Theme14",
+        "themeStyle": "Theme13",
         "customColor": null,
         "gradientColor1": null,
         "gradientColor2": null
