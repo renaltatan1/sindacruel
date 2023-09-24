@@ -1,258 +1,477 @@
-<style>
-
-* {
-  
+{
+    "appconfiguration": {
+        "app_name": "Friend",
+        "url": "https://tvyserieslatino.blogspot.com/2023/09/friends.html",
+        "appLanuguage": "en",
+        "isJavascriptEnable": "true",
+        "isSplashScreen": "true",
+        "isZoomFunctionality": "false",
+        "navigationStyle": "sidedrawer",
+        "header_style": "empty_header",
+        "is_walkthrough": "true",
+        "is_webrtc": "false",
+        "is_floating_button": "false",
+        "floating_button_style": "regular",
+        "is_pull_refresh": "false",
+        "tab_style": "tab_with_title_icon",
+        "bottom_navigation": "bottom_navigation_3",
+        "walkthrough_style": "walkthrough_style_2",
+        "clear_cookie": "false",
+        "isExitPopupScreen": "true",
+        "disable_header": "true",
+        "disable_footer": "true",
+        "app_logo": "http://felizon.wuaze.com/source/upload/app_logo.png",
+        "floating_button": "http://felizon.wuaze.com/source/upload/floating_button.png"
+    },
+    "admob": {
+        "ads_type": "none",
+        "admobBannerID": "",
+        "admobIntentialID": "",
+        "admobBannerIDIOS": "",
+        "admobIntentialIDIOS": "",
+        "facebookBannerID": "",
+        "facebookIntentialID": "",
+        "facebookBannerIDIOS": "",
+        "facebookIntentialIDIOS": ""
+    },
+    "progressbar": {
+        "is_progressbar": "true",
+        "loaderStyle": "WanderingCubes"
+    },
+    "theme": {
+        "themeStyle": "Theme13",
+        "customColor": null,
+        "gradientColor1": null,
+        "gradientColor2": null
+    },
+    "about": {
+        "whatsAppNumber": "98796543210",
+        "instagramUrl": "https://www.instagram.com/",
+        "twitterUrl": "https://twitter.com/login",
+        "facebookUrl": "https://www.facebook.com/",
+        "callNumber": "9876543210",
+        "snapchat": "https://www.snapchat.com/",
+        "skype": "https://www.skype.com/en/",
+        "messenger": "https://www.messenger.com/",
+        "youtube": "https://www.youtube.com/",
+        "isShowAbout": "true"
+    },
+    "onesignal_configuration": {
+        "app_id": "xxxxx",
+        "rest_api_key": "xxxxx"
+    },
+    "splash_configuration": {
+        "first_color": "#3788ff",
+        "second_color": "#4581e8",
+        "title": "Mighty Web",
+        "enable_title": "true",
+        "title_color": "#ffffff",
+        "enable_logo": "true",
+        "enable_background": "true",
+        "splash_logo_url": "http://felizon.wuaze.com/source/upload/splash_logo.png",
+        "splash_background_url": "http://felizon.wuaze.com/source/upload/splash_background.png"
+    },
+    "exitpopup_configuration": {
+        "title": "Do you want to exit at this moment? ",
+        "positive_text": "Yes",
+        "negative_text": "No",
+        "enable_image": "true",
+        "exit_image_url": "https://meetmighty.com/mightywebbuilder/upload/cancel.png"
+    },
+    "share_content": {
+        "share": "share conntentt https://meetmighty.com/mighty/contact/"
+    },
+    "menu_style": [
+        {
+            "id": "7",
+            "title": "About",
+            "type": "sidedrawer",
+            "image": "http://felizon.wuaze.com/source/upload/menu/1618655222-icon_4.png",
+            "url": "https://themeforest.net/user/meetmighty",
+            "status": "1",
+            "parent_id": "0",
+            "children": []
+        }
+    ],
+    "header_icon": {
+        "lefticon": [
+            {
+                "id": "1",
+                "title": "Back Button 1",
+                "value": "ic_back1",
+                "image": "ic_back1.png",
+                "type": "event",
+                "url": null,
+                "status": "0",
+                "created_at": "2021-04-09 05:19:17",
+                "updated_at": "2021-04-09 05:19:17"
+            },
+            {
+                "id": "2",
+                "title": "Back Button 2",
+                "value": "ic_back2",
+                "image": "ic_back2.png",
+                "type": "event",
+                "url": null,
+                "status": "1",
+                "created_at": "2021-04-09 05:19:27",
+                "updated_at": "2021-04-09 05:19:27"
+            },
+            {
+                "id": "3",
+                "title": "Home",
+                "value": "ic_home",
+                "image": "ic_home.png",
+                "type": "event",
+                "url": null,
+                "status": "0",
+                "created_at": "2021-04-09 05:20:00",
+                "updated_at": "2021-04-09 05:20:00"
+            },
+            {
+                "id": "4",
+                "title": "Profile",
+                "value": "ic_profile",
+                "image": "ic_profile.png",
+                "type": "url",
+                "url": "https://www.google.com/",
+                "status": "0",
+                "created_at": "2021-04-09 05:20:29",
+                "updated_at": "2021-04-09 05:20:29"
+            },
+            {
+                "id": "5",
+                "title": "Close",
+                "value": "ic_close",
+                "image": "ic_close.png",
+                "type": "event",
+                "url": null,
+                "status": "0",
+                "created_at": "2021-04-09 05:20:30",
+                "updated_at": "2021-04-09 05:20:30"
+            },
+            {
+                "id": "6",
+                "title": "Search",
+                "value": "ic_search",
+                "image": "ic_search.png",
+                "type": "url",
+                "url": "https://www.google.com/",
+                "status": "0",
+                "created_at": "2021-04-09 05:20:36",
+                "updated_at": "2021-04-09 05:20:36"
+            },
+            {
+                "id": "7",
+                "title": "Add",
+                "value": "ic_add",
+                "image": "ic_add.png",
+                "type": "url",
+                "url": "https://www.google.com/",
+                "status": "0",
+                "created_at": "2021-04-09 05:20:51",
+                "updated_at": "2021-04-09 05:20:51"
+            }
+        ],
+        "righticon": [
+            {
+                "id": "1",
+                "title": "Reload",
+                "value": "ic_reload",
+                "image": "ic_reload.png",
+                "type": "event",
+                "url": null,
+                "status": "1",
+                "created_at": "2020-06-07 21:28:42",
+                "updated_at": "2020-06-07 21:28:42"
+            },
+            {
+                "id": "2",
+                "title": "Search",
+                "value": "ic_search",
+                "image": "ic_search.png",
+                "type": "url",
+                "url": "https://www.google.com/",
+                "status": "1",
+                "created_at": "2020-06-07 21:48:16",
+                "updated_at": "2020-06-07 21:48:16"
+            },
+            {
+                "id": "3",
+                "title": "Cart",
+                "value": "ic_cart",
+                "image": "ic_cart.png",
+                "type": "url",
+                "url": "https://www.myntra.com/",
+                "status": "0",
+                "created_at": "2021-04-09 05:11:40",
+                "updated_at": "2021-04-09 05:11:40"
+            },
+            {
+                "id": "4",
+                "title": "Settings",
+                "value": "ic_settings",
+                "image": "ic_settings.png",
+                "type": "url",
+                "url": "https://www.google.com/",
+                "status": "0",
+                "created_at": "2021-04-09 10:33:15",
+                "updated_at": "2021-04-09 10:33:17"
+            },
+            {
+                "id": "5",
+                "title": "Share",
+                "value": "ic_share",
+                "image": "ic_share.png",
+                "type": "event",
+                "url": null,
+                "status": "0",
+                "created_at": "2020-06-07 21:46:42",
+                "updated_at": "2020-06-07 21:46:42"
+            },
+            {
+                "id": "6",
+                "title": "Close",
+                "value": "ic_close",
+                "image": "ic_close.png",
+                "type": "event",
+                "url": null,
+                "status": "0",
+                "created_at": "2021-04-09 05:10:36",
+                "updated_at": "2021-04-09 05:10:36"
+            },
+            {
+                "id": "7",
+                "title": "Profile",
+                "value": "ic_profile",
+                "image": "ic_profile.png",
+                "type": "url",
+                "url": "https://www.google.com/",
+                "status": "0",
+                "created_at": "2021-04-09 05:11:54",
+                "updated_at": "2021-04-09 05:11:54"
+            },
+            {
+                "id": "8",
+                "title": "Message",
+                "value": "ic_message",
+                "image": "ic_message.png",
+                "type": "url",
+                "url": "https://www.google.com/",
+                "status": "0",
+                "created_at": "2021-04-09 05:12:47",
+                "updated_at": "2021-04-09 05:12:47"
+            },
+            {
+                "id": "9",
+                "title": "Notification",
+                "value": "ic_notification",
+                "image": "ic_notification.png",
+                "type": "url",
+                "url": "https://www.google.com/",
+                "status": "0",
+                "created_at": "2021-04-09 05:13:11",
+                "updated_at": "2021-04-09 05:13:11"
+            },
+            {
+                "id": "10",
+                "title": "Favourite",
+                "value": "ic_favourite",
+                "image": "ic_favourite.png\r\n",
+                "type": "url",
+                "url": "https://www.google.com/",
+                "status": "0",
+                "created_at": "2021-06-24 17:01:26",
+                "updated_at": null
+            },
+            {
+                "id": "11",
+                "title": "Add",
+                "value": "ic_add",
+                "image": "ic_add.png",
+                "type": "url",
+                "url": "https://www.google.com/",
+                "status": "0",
+                "created_at": "2021-06-24 17:01:26",
+                "updated_at": null
+            },
+            {
+                "id": "12",
+                "title": "List",
+                "value": "ic_list",
+                "image": "ic_list.png",
+                "type": "url",
+                "url": "https://www.google.com/",
+                "status": "0",
+                "created_at": "2021-06-24 17:03:34",
+                "updated_at": null
+            },
+            {
+                "id": "13",
+                "title": "Filter",
+                "value": "ic_filter",
+                "image": "ic_filter.png",
+                "type": "url",
+                "url": "https://www.google.com/",
+                "status": "0",
+                "created_at": "2021-06-24 17:03:34",
+                "updated_at": null
+            },
+            {
+                "id": "14",
+                "title": "Chat",
+                "value": "ic_chat",
+                "image": "ic_chat.png",
+                "type": "url",
+                "url": "https://www.google.com/",
+                "status": "0",
+                "created_at": "2021-06-24 17:04:24",
+                "updated_at": null
+            },
+            {
+                "id": "15",
+                "title": "About",
+                "value": "ic_about",
+                "image": "ic_about.png",
+                "type": "url",
+                "url": "https://www.google.com/",
+                "status": "0",
+                "created_at": "2021-06-24 17:04:24",
+                "updated_at": null
+            },
+            {
+                "id": "16",
+                "title": "QR Code",
+                "value": "ic_qr_code",
+                "image": "ic_qr_code.png",
+                "type": "event",
+                "url": null,
+                "status": "0",
+                "created_at": "2022-07-25 05:10:36",
+                "updated_at": null
+            }
+        ]
+    },
+    "walkthrough": [
+        {
+            "id": "1",
+            "title": "Mighty Web",
+            "subtitle": "BUena app testeando",
+            "image": "http://felizon.wuaze.com/source/upload/walkthrough/default.png",
+            "status": "1"
+        },
+        {
+            "id": "2",
+            "title": "Theme Style",
+            "subtitle": "Mighty Web holds stunning options of Theme styles that you can apply to your mobile app to define your app better.",
+            "image": "http://felizon.wuaze.com/source/upload/walkthrough/default.png",
+            "status": "1"
+        }
+    ],
+    "floating_button": [
+        {
+            "id": "1",
+            "title": "Search",
+            "image": "http://felizon.wuaze.com/source/upload/floatingbutton/ic_search.png",
+            "url": "https://www.google.com/",
+            "status": "1"
+        },
+        {
+            "id": "2",
+            "title": "Message",
+            "image": "http://felizon.wuaze.com/source/upload/floatingbutton/ic_message.png",
+            "url": "https://www.google.com/",
+            "status": "1"
+        },
+        {
+            "id": "3",
+            "title": "Share",
+            "image": "http://felizon.wuaze.com/source/upload/floatingbutton/ic_share.png",
+            "url": "https://www.google.com/",
+            "status": "1"
+        },
+        {
+            "id": "4",
+            "title": "Home",
+            "image": "http://felizon.wuaze.com/source/upload/floatingbutton/ic_home.png",
+            "url": "https://www.google.com/",
+            "status": "1"
+        }
+    ],
+    "tabs": [
+        {
+            "id": "1",
+            "title": "Home",
+            "image": "http://felizon.wuaze.com/source/upload/tabs/ic_home.png",
+            "url": "https://www.google.com/",
+            "status": "1"
+        },
+        {
+            "id": "2",
+            "title": "Search",
+            "image": "http://felizon.wuaze.com/source/upload/tabs/ic_search.png",
+            "url": "https://www.google.com/",
+            "status": "1"
+        },
+        {
+            "id": "3",
+            "title": "Profile",
+            "image": "http://felizon.wuaze.com/source/upload/tabs/ic_profile.png",
+            "url": "https://www.google.com/",
+            "status": "1"
+        },
+        {
+            "id": "4",
+            "title": "Wishlist",
+            "image": "http://felizon.wuaze.com/source/upload/tabs/ic_heart.png",
+            "url": "https://www.google.com/",
+            "status": "1"
+        }
+    ],
+    "user_agent": [
+        {
+            "id": "1",
+            "title": "Web Browser",
+            "android": "random",
+            "ios": "Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1 Mobile/15E148 Safari/604.1",
+            "status": "1"
+        },
+        {
+            "id": "2",
+            "title": "nose que es",
+            "android": "",
+            "ios": "ios",
+            "status": "1"
+        }
+    ],
+    "pages": [
+        {
+            "id": "1",
+            "title": "probando cod netflix ",
+            "image": "http://felizon.wuaze.com/source/upload/pages/default.png",
+            "url": "https://tvyserieslatino.blogspot.com/2023/09/test.html",
+            "status": "1"
+        },
+        {
+            "id": "2",
+            "title": "Tv",
+            "image": "http://felizon.wuaze.com/source/upload/pages/default.png",
+            "url": "https://www.portalbarranca.com/2023/03/america-tv-peru-en-vivo.html",
+            "status": "1"
+        },
+        {
+            "id": "3",
+            "title": "netflix",
+            "image": "http://felizon.wuaze.com/source/upload/pages/default.png",
+            "url": "https://www.netflix.com/pe/title/80095697",
+            "status": "1"
+        },
+        {
+            "id": "4",
+            "title": "bigbang",
+            "image": "http://felizon.wuaze.com/source/upload/pages/default.png",
+            "url": "https://tvyserieslatino.blogspot.com/2023/09/the-big-bang-theory.html",
+            "status": "1"
+        }
+    ]
 }
-html {
-   background-image: url("https://3.bp.blogspot.com/-xK9a3ID-AN4/XzhHdFKQ94I/AAAAAAAALx8/XKAJCVsz7fAtNlqip9BLM8FnehTN8ln2wCLcBGAsYHQ/s1600/optimizado.jpg");
- background-color: #000;
-    background-repeat: no-repeat;
-   background-size: 100% 100%;
-  overflow: hidden;
-}
-input[type='radio'],
-.hide {
-  display: none;
-}
-input[type='radio']:checked + .btn {
-  width: 0;
-  height: 0;
-  top: 28px;
-  left: 28px;
-  transform: rotate(-480deg);
-}
-.btn {
-  position: fixed;
-  top: 16px;
-  left: 16px;
-  display: block;
-  transition: width 0.5s, height 0.5s, transform 1s, top 0.5s, left 0.5s;
-  width: 24px;
-  height: 24px;
-  border-radius: 24px;
-  background-color: #4d4d4d;
-  background: url("https://amini.it/wp-content/themes/tema/img/closex.svg"), #4d4d4d;
-  background-size: 60%, 100%;
-  background-repeat: no-repeat;
-  background-position: center;
-  z-index: 100;
-}
-input[type='radio']:checked + .net,
-input[type='radio']:checked + .hl,
-input[type='radio']:checked + .rt,
-input[type='radio']:checked + .yt {
-  max-width: 100vw;
-  max-height: 100vh;
-  width: 100vw;
-  height: 100vh;
-}
-input[type='radio']:checked + .net iframe,
-input[type='radio']:checked + .hl iframe,
-input[type='radio']:checked + .rt iframe,
-input[type='radio']:checked + .yt iframe {
-  display: block;
-  position: static;
-  top: 40px;
-  left: 40px;
-  width: 1280px;
-  height: 720px;
-  z-index: 100;
-}
-input[type='radio']:checked + .net:hover,
-input[type='radio']:checked + .hl:hover,
-input[type='radio']:checked + .rt:hover,
-input[type='radio']:checked + .yt:hover {
-  transform: translate(-50%, -50%);
-  border: none;
-}
-.grid {
-  display: grid;
-  width: 100vw;
-  height: 100vh;
-  grid-template-rows: 1fr 1fr;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 0px;
-}
-.net,
-.hl,
-.yt,
-.rt {
-  position: relative;
-  display: block;
-  max-width: 45vw;
-  max-height: 45vh;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  transition: 1s;
-}
-.net iframe,
-.hl iframe,
-.yt iframe,
-.rt iframe {
-  display: none;
-}
-.net:hover,
-.hl:hover,
-.yt:hover,
-.rt:hover {
-  transition: 0.5s;
-  border: 5px solid #fff;
-  transform: translate(-50%, -50%) scale(1.1);
-}
-.net:active,
-.hl:active,
-.yt:active,
-.rt:active {
-  transition: 0.2s;
-  transform: translate(-50%, -50%) scale(1.05);
-}
-.net {
-  background-color: #e50914;
-  background: url("https://2.bp.blogspot.com/-7f0SH6YTcIE/XzZSZFsHE8I/AAAAAAAALxg/GfyW-AKEiF4RaaAKAuillK7KVCfk0FlwACLcBGAsYHQ/s1600/splash_logo.png"), #000;
-  background-size: 30%, 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-.hl {
-  background-color: #020024;
-  background: url("https://4.bp.blogspot.com/-Y5tL8xF3pgA/XzZTPQ0j_cI/AAAAAAAALxo/sLWXE3uHpdEWXFVXAdYF2sHItc9Ux9y5ACLcBGAsYHQ/s1600/kisspng-iptv-television-channel-m3u-video-on-demand-5ae7088beb56b3.001768201525090443964.png"), #3dbb3d;
-  background-size: 75%, 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-.yt {
-  background-color: #f00;
-  background: url("https://bit.ly/2kyygqz"), #f00;
-  background-size: 60%, 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-.rt {
-  background-color: #282828;
-  background: url("https://bit.ly/2k439ms"), #282828;
-  background-size: 80%, 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-</style>
-
-
-<!Doctype html>
-<html>
-<head>
-  <title>Firbase web basic</title>
-
-  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-  <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.teal-red.min.css" />
-  <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
-
-  <!--Main Stylesheet -->
-  <link rel="stylesheet" href="style.css" />
-</head>
-<body>
-
-  <!-- LOGIN DIALOG -->
-  <dialog id="loginDialog" class="mdl-dialog">
-    <h4 class="mdl-dialog__title">Empieza</h4>
-    <div class="mdl-dialog__content">
-      <p id="loginError"></p>
-      <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-        <input class="mdl-textfield__input" type="text" id="loginEmail">
-        <label class="mdl-textfield__label" for="sample3">Correo...</label>
-      </div>
-      <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-        <input class="mdl-textfield__input" type="text" id="loginPassword">
-        <label class="mdl-textfield__label" for="sample3">Clave...</label>
-      </div><a style="text-decoration:none" href="https://docs.google.com/forms/d/e/1FAIpQLSeryexoPI2d6CUseBhuVv3_Oa--R5kwBzs3Kg-WLdfyqwrUjA/viewform">consigue tu ID</a>
-    </div>
-    <div class="mdl-dialog__actions">
-      <!-- Colored raised button -->
-      <button id="loginBtn" class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored mdl-js-ripple-effect">
-        Entrar
-      </button>
-      <!-- MDL Spinner Component -->
-      <div id="loginProgress" class="mdl-spinner mdl-js-spinner is-active"></div>
-    </div>
-  </dialog>
-
-  <!-- MAIN PAGE CONTENT -->
-
-  <div class="login-cover">
-    <!-- MDL Spinner Component -->
-    <div class="page-loader mdl-spinner mdl-js-spinner is-active"></div>
-  </div>
-
-  <div class="mdl-layout mdl-js-layout">
-    <header class="mdl-layout__header">
-      <div class="mdl-layout-icon"></div>
-      <div class="mdl-layout__header-row">
-        <span class="mdl-layout__title">Seleccion
-          <span class="page-title-span"> | </span>
-          <span class="page-title-span"> Inicio </span>
-        </span>
-        <div class="mdl-layout-spacer"></div>
-        <nav class="mdl-navigation">
-          <button id="signOutBtn" class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored mdl-js-ripple-effect">
-            Cerrar Sesion <i class="button-right-icon material-icons">account_circle</i>
-          </button>
-        </nav>
-      </div>
-    </header>
-
-    <head>
-      <meta charset="UTF-8">
-      <title>CodePen - App</title>
-      <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet"><link rel="stylesheet" href="./style.css">
-    
-    </head>
-    <body>
-    <!-- partial:index.partial.html -->
-    <form class="grid">
-      <input type="radio" name="tab" checked="checked" id="exit"/>
-      <label class="btn" for="exit"></label>
-      <input type="radio" name="tab" onclick="setTimeout(openNF, 5000)" id="netflix"/>
-      <label class="net" for="netflix"></label>
-      <input type="radio" name="tab" onclick="setTimeout(openHL, 5000)" id="hulu"/>
-      <label class="hl" for="hulu"></label>
-      <input type="radio" name="tab" onclick="setTimeout(openRT, 5000)" id="roosterteeth"/>
-      <label class="rt" for="roosterteeth"></label>
-      <input type="radio" name="tab" onclick="setTimeout(openYT, 5000)" id="youtube"/>
-      <label class="yt" for="youtube"></label>
-    </form>
-    <!-- partial -->
-      <script  src="./script.js"></script>
-    
-    
-    
-    
-    <div class="mdl-layout__drawer">
-    </div>
-  </div>
-
-  <script src="https://www.gstatic.com/firebasejs/3.7.3/firebase.js"></script>
-  <script>
-    // Initialize Firebase
-    var config = {
-      apiKey: "AIzaSyDzaFyCmOQb4XlNQO3zE8Kz64-HNSjybew",
-      authDomain: "mavita-fcd2e.firebaseapp.com",
-      databaseURL: "https://mavita-fcd2e.firebaseio.com",
-      storageBucket: "mavita-fcd2e.appspot.com",
-      messagingSenderId: "4755222072"
-    };
-    firebase.initializeApp(config);
-  </script>
-
-  <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
-  <script src="index.js"></script>
-
-  </body>
-</html>
-
-<script>
-
-function openNF() { location.replace('https://onixperado.blogspot.com/2022/06/gg.html') }
-function openHL() { location.replace('https://onixperado.blogspot.com/2022/06/test.html') }
-function openRT() { location.replace('https://xixdemon.blogspot.com/2022/07/pedos.html') }
-function openYT() { location.replace('https://piritomom.blogspot.com/2022/06/diario.html') }
-</script>
