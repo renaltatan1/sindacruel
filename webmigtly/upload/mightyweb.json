@@ -3,7 +3,7 @@
         "app_name": "Friend",
         "url": "https://webdesign-flash.ro/p/uvp/demos.html",
         "appLanuguage": "es",
-        "isJavascriptEnable": "false",
+        "isJavascriptEnable": "true",
         "isSplashScreen": "true",
         "isZoomFunctionality": "false",
         "navigationStyle": "sidedrawer",
