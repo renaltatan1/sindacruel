@@ -1,0 +1,21 @@
+<VAST version="3.0">
+  <Ad id="1">
+    <InLine>
+      <AdSystem>Sample Ad System</AdSystem>
+      <AdTitle>Sample Ad Title</AdTitle>
+      <Impression>https://tracking.example.com/impression</Impression>
+      <Creatives>
+        <Creative>
+          <Linear>
+            <Duration>00:00:30</Duration>
+            <MediaFiles>
+              <MediaFile id="1" delivery="progressive" type="video/mp4" width="640" height="360">
+                <![CDATA[https://archive.org/download/10_20210115/19.mpeg4]]>
+              </MediaFile>
+            </MediaFiles>
+          </Linear>
+        </Creative>
+      </Creatives>
+    </InLine>
+  </Ad>
+</VAST>
