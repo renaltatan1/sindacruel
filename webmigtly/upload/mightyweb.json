@@ -17,7 +17,7 @@
         "bottom_navigation": "bottom_navigation_3",
         "walkthrough_style": "walkthrough_style_2",
         "clear_cookie": "false",
-        "isExitPopupScreen": "true",
+        "isExitPopupScreen": "false",
         "disable_header": "false",
         "disable_footer": "false",
         "app_logo": "http://felizon.wuaze.com/source/upload/app_logo.png",
