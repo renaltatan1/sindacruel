@@ -1,31 +1,85 @@
 #EXTM3U
+
 #EXTINF:-1 tvg-id="ATMTelevision.pe" tvg-logo="https://i.imgur.com/pdmh1pT.png" group-title="General",ATM Television
 https://v4.tustreaming.cl/atmtv/index.m3u8
+
 #EXTINF:-1 tvg-id="CanalIPe.pe" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Identidad_Peruana_ipe_2020.png/1200px-Identidad_Peruana_ipe_2020.png" group-title="Family",Canal IPe
 https://cdnhd.iblups.com/hls/3f2cb1658d114f2693eff18d83199e67.m3u8
+
 #EXTINF:-1 tvg-id="MonterricoTV.pe" tvg-logo="https://i.imgur.com/SuVO9T7.png" group-title="Sports",Monterrico TV
 https://ed3od.live.opencaster.com/jcpstream_hd720/index.m3u8
+
 #EXTINF:-1 tvg-id="NacionalTvPeru.pe" tvg-logo="https://i.imgur.com/ad0GNqa.png" group-title="",Nacional Tv Peru
 https://s1.tvdatta.com:3349/live/nacionaltvlive.m3u8
+
 #EXTINF:-1 tvg-id="PancTVPeru.pe" tvg-logo="https://play-lh.googleusercontent.com/-FVhaeUjvONL49NYdVMchoLXU421387791mp8zZ15JFic_kPyb3vULf86ffIr-NeOg" group-title="Entertainment",Panc TV Peru
 https://panel.host-live.com:19360/80780/80780.m3u8
+
 #EXTINF:-1 tvg-id="PeruChannel.br" tvg-logo="https://i.imgur.com/01KEiEp.png" group-title="General",Peru Channel
 https://a.cdni.live/peruchanel/peruchanel/playlist.m3u8
+
 #EXTINF:-1 tvg-id="PeruvianRadioTV.pe" tvg-logo="https://i.imgur.com/53j4mNh.png" group-title="",PeruvianRadio TV
 https://vdo.grupolimalive.com:3399/stream/play.m3u8
+
 #EXTINF:-1 tvg-id="RadioRutasdelPeru.es" tvg-logo="https://i.imgur.com/88Iyvm8.png" group-title="Travel",Radio Rutas del Peru
 https://tv.portalexpress.es:3731/stream/play.m3u8
+
 #EXTINF:-1 tvg-id="SenalPeruTV.pe" tvg-logo="https://i.imgur.com/1q0R6R9.png" group-title="",Senal Peru TV
 https://livestream.perucast.com/hls/stream.m3u8
+
 #EXTINF:-1 tvg-id="TVFacesPeru.pe" tvg-logo="https://i.imgur.com/PL0pTxs.png" group-title="Entertainment",TVFaces Peru
 https://tvdatta.com:3211/stream/play.m3u8
+
 #EXTINF:-1 tvg-id="TVPeru.pe" tvg-logo="https://i.imgur.com/6io0IrX.png" group-title="General",TV Peru
 https://cdnhd.iblups.com/hls/777b4d4cc0984575a7d14f6ee57dbcaf.m3u8
+
 #EXTINF:-1 tvg-id="TVPeruanisima.pe" tvg-logo="https://i.imgur.com/m50qAVY.png" group-title="Music",TV Peruanisima
 https://62fc643fbf1aa.streamlock.net/TVperuanisima/TVperuanisima/playlist.m3u8
+
 #EXTINF:-1 tvg-id="TVPeruInternacional.pe" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/TV_Per%C3%BA_Internacional_2019_-_copia.png/512px-TV_Per%C3%BA_Internacional_2019_-_copia.png" group-title="General",TV Peru Internacional
 https://cdnhd.iblups.com/hls/ee2450c81e554f4cae0e6292106993c2.m3u8
+
 #EXTINF:-1 tvg-id="TVPeruNoticias.pe" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/TV_Per%C3%BA_Noticias_-_2019_logo.png/512px-TV_Per%C3%BA_Noticias_-_2019_logo.png" group-title="News",TV Peru Noticias
 https://cdnhd.iblups.com/hls/902c1a0395264f269f1160efa00660e4.m3u8
+
 #EXTINF:-1 tvg-id="UTNTV.ar" tvg-logo="https://i.imgur.com/Sfi2nSE.png" group-title="",UTN TV
 https://stream.arcast.com.ar/utntv/utntv/playlist.m3u8
+
+#EXTINF:-1 tvg-id="ATV.pe" tvg-logo="https://bitel.com.pe/atv_logo.png" group-title="General",ATV
+https://live-evg25.tv360.bitel.com.pe/bitel/atv/bitel/atv_ori_480p/chunks.m3u8
+
+#EXTINF:-1 tvg-id="AnimeOnegai.pe" tvg-logo="https://bitel.com.pe/animeOnegai_logo.png" group-title="Anime",Anime Onegai
+https://live-evg25.tv360.bitel.com.pe/bitel/animeOnegai/bitel/animeOnegai_ori_480p/chunks.m3u8
+
+#EXTINF:-1 tvg-id="AmericaTV.pe" tvg-logo="https://bitel.com.pe/americatv_logo.png" group-title="General",America TV
+https://live-evg25.tv360.bitel.com.pe/bitel/americatv/bitel/americatv_ori_480p/chunks.m3u8
+
+#EXTINF:-1 tvg-id="Latina.pe" tvg-logo="https://bitel.com.pe/latina_logo.png" group-title="General",Latina
+https://live-evg25.tv360.bitel.com.pe/bitel/latina/bitel/latina_ori_480p/chunks.m3u8
+
+#EXTINF:-1 tvg-id="Willax.pe" tvg-logo="https://bitel.com.pe/willax_logo.png" group-title="General",Willax
+https://live-evg25.tv360.bitel.com.pe/bitel/willax/bitel/willax_ori_480p/chunks.m3u8
+
+#EXTINF:-1 tvg-id="Panamericana.pe" tvg-logo="https://bitel.com.pe/panamericana_logo.png" group-title="General",Panamericana
+https://live-evg25.tv360.bitel.com.pe/bitel/panamericana/bitel/panamericana_ori_480p/chunks.m3u8
+
+#EXTINF:-1 tvg-id="PBO.pe" tvg-logo="https://bitel.com.pe/pbo_logo.png" group-title="General",PBO
+https://live-evg25.tv360.bitel.com.pe/bitel/pbo/bitel/pbo_ori_480p/chunks.m3u8
+
+#EXTINF:-1 tvg-id="TVPeru.pe" tvg-logo="https://bitel.com.pe/tvperu_logo.png" group-title="General",TV Peru
+https://live-evg25.tv360.bitel.com.pe/bitel/tvperu/bitel/tvperu_ori_480p/chunks.m3u8
+
+#EXTINF:-1 tvg-id="Exitosa.pe" tvg-logo="https://bitel.com.pe/exitosa_logo.png" group-title="General",Exitosa
+https://live-evg25.tv360.bitel.com.pe/bitel/exitosa/bitel/exitosa_ori_480p/chunks.m3u8
+
+#EXTINF:-1 tvg-id="Global.pe" tvg-logo="https://bitel.com.pe/global_logo.png" group-title="General",Global
+https://live-evg25.tv360.bitel.com.pe/bitel/global/bitel/global_ori_480p/chunks.m3u8
+
+#EXTINF:-1 tvg-id="Funbox.pe" tvg-logo="https://bitel.com.pe/funbox_logo.png" group-title="Entertainment",Funbox
+https://live-evg25.tv360.bitel.com.pe/bitel/funbox/bitel/funbox_ori_480p/chunks.m3u8
+
+#EXTINF:-1 tvg-id="Nativa.pe" tvg-logo="https://bitel.com.pe/nativa_logo.png" group-title="General",Nativa
+https://live-evg25.tv360.bitel.com.pe/bitel/nativa/bitel/nativa_ori_480p/chunks.m3u8
+
+#EXTINF:-1 tvg-id="SolTV.pe" tvg-logo="https://bitel.com.pe/soltv_logo.png" group-title="General",Sol TV
+https://live-evg25.tv360.bitel.com.pe/bitel/soltv/bitel/soltv_ori_480p/chunks.m3u8
